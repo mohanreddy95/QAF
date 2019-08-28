@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "logOut",
+        "resultFileName": "LogOut",
+        "sign": "VerifyLogOutTest.logOut()[pri:0, instance:com.pom.test.VerifyLogOutTest@436e852b]"
+      },
+      "dependsOn": [],
+      "startTime": 1563167878087,
+      "duration": 606868,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

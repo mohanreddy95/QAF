@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="8" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAF Demo" duration-ms="1381377" started-at="2019-08-28T05:21:07Z" finished-at="2019-08-28T05:44:09Z">
+    <groups>
+    </groups>
+    <test name="BDD Test" duration-ms="1381377" started-at="2019-08-28T05:21:07Z" finished-at="2019-08-28T05:44:09Z">
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="setupSuit" is-config="true" duration-ms="48" started-at="2019-08-28T10:51:07Z" finished-at="2019-08-28T10:51:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="setupTest" is-config="true" duration-ms="1" started-at="2019-08-28T10:51:07Z" finished-at="2019-08-28T10:51:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="setup" is-config="true" duration-ms="1" started-at="2019-08-28T10:51:07Z" finished-at="2019-08-28T10:51:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="setupMethod" is-config="true" duration-ms="2" started-at="2019-08-28T10:51:07Z" finished-at="2019-08-28T10:51:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method name="New tour login" test-instance-name="New tour login" signature="New tour login( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="PASS" duration-ms="15773" finished-at="2019-08-28T10:51:23Z" started-at="2019-08-28T10:51:07Z" data-provider="scenariodp" description="login new tour">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>= <Signin>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- New tour login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-08-28T10:51:23Z" finished-at="2019-08-28T10:51:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=New tour login status=SUCCESS method=scenarios.suite1.bdd.New tour login( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="setupMethod" is-config="true" duration-ms="0" started-at="2019-08-28T10:51:23Z" finished-at="2019-08-28T10:51:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method name="New tour login" test-instance-name="New tour login" signature="New tour login( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="PASS" duration-ms="224173" finished-at="2019-08-28T10:55:07Z" started-at="2019-08-28T10:51:23Z" data-provider="scenariodp" description="login new tour">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>= <data>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- New tour login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-08-28T10:55:07Z" finished-at="2019-08-28T10:55:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=New tour login status=SUCCESS method=scenarios.suite1.bdd.New tour login( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="setupMethod" is-config="true" duration-ms="0" started-at="2019-08-28T10:55:07Z" finished-at="2019-08-28T10:55:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method name="New tour login" test-instance-name="New tour login" signature="New tour login( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="PASS" duration-ms="230427" finished-at="2019-08-28T10:58:58Z" started-at="2019-08-28T10:55:07Z" data-provider="scenariodp" description="login new tour">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>= <username>guest</username>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- New tour login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-08-28T10:58:58Z" finished-at="2019-08-28T10:58:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=New tour login status=SUCCESS method=scenarios.suite1.bdd.New tour login( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="setupMethod" is-config="true" duration-ms="0" started-at="2019-08-28T10:58:58Z" finished-at="2019-08-28T10:58:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method name="New tour login" test-instance-name="New tour login" signature="New tour login( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="PASS" duration-ms="230868" finished-at="2019-08-28T11:02:49Z" started-at="2019-08-28T10:58:58Z" data-provider="scenariodp" description="login new tour">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>= <password>guest</password>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- New tour login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-08-28T11:02:49Z" finished-at="2019-08-28T11:02:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=New tour login status=SUCCESS method=scenarios.suite1.bdd.New tour login( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="setupMethod" is-config="true" duration-ms="1" started-at="2019-08-28T11:02:49Z" finished-at="2019-08-28T11:02:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method name="New tour login" test-instance-name="New tour login" signature="New tour login( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="PASS" duration-ms="229535" finished-at="2019-08-28T11:06:38Z" started-at="2019-08-28T11:02:49Z" data-provider="scenariodp" description="login new tour">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>= </data>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- New tour login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-08-28T11:06:38Z" finished-at="2019-08-28T11:06:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=New tour login status=SUCCESS method=scenarios.suite1.bdd.New tour login( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="setupMethod" is-config="true" duration-ms="0" started-at="2019-08-28T11:06:38Z" finished-at="2019-08-28T11:06:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method name="New tour login" test-instance-name="New tour login" signature="New tour login( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="PASS" duration-ms="220948" finished-at="2019-08-28T11:10:19Z" started-at="2019-08-28T11:06:38Z" data-provider="scenariodp" description="login new tour">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>= </Signin>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- New tour login -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="setupMethod" is-config="true" duration-ms="1" started-at="2019-08-28T11:10:19Z" finished-at="2019-08-28T11:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-08-28T11:10:19Z" finished-at="2019-08-28T11:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=New tour login status=SUCCESS method=scenarios.suite1.bdd.New tour login( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method name="New tour login" test-instance-name="New tour login" signature="New tour login( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="PASS" duration-ms="229449" finished-at="2019-08-28T11:14:09Z" started-at="2019-08-28T11:10:19Z" data-provider="scenariodp" description="login new tour">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=</root>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- New tour login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-08-28T11:14:09Z" finished-at="2019-08-28T11:14:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=New tour login status=SUCCESS method=scenarios.suite1.bdd.New tour login( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour app</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify home page id diplayed</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>login successfully</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="afterClass" is-config="true" duration-ms="1" started-at="2019-08-28T11:14:09Z" finished-at="2019-08-28T11:14:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="afterTest" is-config="true" duration-ms="39" started-at="2019-08-28T11:14:09Z" finished-at="2019-08-28T11:14:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour login" name="afterSuit" is-config="true" duration-ms="0" started-at="2019-08-28T11:14:09Z" finished-at="2019-08-28T11:14:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ee392b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- QAF Demo -->
+</testng-results>

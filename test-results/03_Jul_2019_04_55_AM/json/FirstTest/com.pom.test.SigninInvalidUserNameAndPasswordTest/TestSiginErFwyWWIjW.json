@@ -1,0 +1,71 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 865
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='userName'], using=xpath}"
+      ],
+      "result": "id: 0.7256390795573566-1",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='userName']",
+        "{\"id\":\"0.7256390795573566-1\",\"value\":[\"guest123\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 52
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='password'], using=xpath}"
+      ],
+      "result": "id: 0.7256390795573566-2",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='password']",
+        "{\"id\":\"0.7256390795573566-2\",\"value\":[\"guest123\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 53
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='login'], using=xpath}"
+      ],
+      "result": "id: 0.7256390795573566-3",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='login']",
+        "{\"id\":\"0.7256390795573566-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1743
+    }
+  ],
+  "checkPoints": []
+}

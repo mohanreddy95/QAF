@@ -1,0 +1,208 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "{width=1456, x=-8, y=-8, height=876}",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1157
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='userName'], using=xpath}"
+      ],
+      "result": "id: 0.06019679491184626-1",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='userName']",
+        "{\"id\":\"0.06019679491184626-1\",\"value\":[\"guest\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 45
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='password'], using=xpath}"
+      ],
+      "result": "id: 0.06019679491184626-2",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='password']",
+        "{\"id\":\"0.06019679491184626-2\",\"value\":[\"guest\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='login'], using=xpath}"
+      ],
+      "result": "id: 0.06019679491184626-3",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='login']",
+        "{\"id\":\"0.06019679491184626-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 121174
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='findFlights'], using=xpath}"
+      ],
+      "result": "id: 0.6967687979032688-1",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='findFlights']",
+        "{\"id\":\"0.6967687979032688-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 962
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='reserveFlights'], using=xpath}"
+      ],
+      "result": "id: 0.1240473175656851-1",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='reserveFlights']",
+        "{\"id\":\"0.1240473175656851-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 988
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='passFirst0'], using=xpath}"
+      ],
+      "result": "id: 0.13021015413002335-1",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='passFirst0']",
+        "{\"id\":\"0.13021015413002335-1\",\"value\":[\"ABCD\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 68
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='passLast0'], using=xpath}"
+      ],
+      "result": "id: 0.13021015413002335-2",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='passLast0']",
+        "{\"id\":\"0.13021015413002335-2\",\"value\":[\"EFGH\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 59
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='buyFlights'], using=xpath}"
+      ],
+      "result": "id: 0.13021015413002335-3",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='buyFlights']",
+        "{\"id\":\"0.13021015413002335-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 989
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Test  success",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "My sreenshot......!",
+      "type": "Info",
+      "screenshot": "../img/Book_19mf83ip893d41308.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Enter invalid data",
+      "type": "Info",
+      "screenshot": "../img/Book_d4fpv8rssdkk1309.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "this is a invalid user name",
+      "type": "Info",
+      "screenshot": "../img/Book_1nr6d8jpgstiv1310.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

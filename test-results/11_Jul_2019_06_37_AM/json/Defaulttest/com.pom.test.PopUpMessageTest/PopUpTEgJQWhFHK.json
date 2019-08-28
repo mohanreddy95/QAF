@@ -1,0 +1,287 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 2426
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='userName'], using=xpath}"
+      ],
+      "result": "id: 0.7568666637846349-1",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='userName']",
+        "{\"id\":\"0.7568666637846349-1\",\"value\":[\"guest\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 51
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='password'], using=xpath}"
+      ],
+      "result": "id: 0.7568666637846349-2",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='password']",
+        "{\"id\":\"0.7568666637846349-2\",\"value\":[\"guest\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 46
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='login'], using=xpath}"
+      ],
+      "result": "id: 0.7568666637846349-3",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='login']",
+        "{\"id\":\"0.7568666637846349-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 189987
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='findFlights'], using=xpath}"
+      ],
+      "result": "id: 0.6212882121749035-1",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='findFlights']",
+        "{\"id\":\"0.6212882121749035-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 950
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='reserveFlights'], using=xpath}"
+      ],
+      "result": "id: 0.8744695210773716-1",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='reserveFlights']",
+        "{\"id\":\"0.8744695210773716-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1435
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='delCountry'], using=xpath}"
+      ],
+      "result": "id: 0.24649326109469127-1",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.xpath: //select[@name='delCountry']",
+        "{\"id\":\"0.24649326109469127-1\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='delCountry'], using=xpath}"
+      ],
+      "result": "id: 0.24649326109469127-1",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.xpath: //select[@name='delCountry']",
+        "{\"name\":\"multiple\",\"id\":\"0.24649326109469127-1\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='delCountry'], using=xpath}"
+      ],
+      "result": "id: 0.24649326109469127-1",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: //select[@name='delCountry']",
+        "{\"using\":\"xpath\",\"id\":\"0.24649326109469127-1\",\"value\":\".//option[normalize-space(.) = \\\"INDIA \\\"]\"}"
+      ],
+      "result": "findChildElements:[]",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='delCountry'], using=xpath}"
+      ],
+      "result": "id: 0.24649326109469127-1",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: //select[@name='delCountry']",
+        "{\"using\":\"xpath\",\"id\":\"0.24649326109469127-1\",\"value\":\".//option[contains(., \\\"INDIA\\\")]\"}"
+      ],
+      "result": "findChildElements:[id: 0.24649326109469127-2, id: 0.24649326109469127-3, id: 0.24649326109469127-4]",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.24649326109469127-2",
+        "{\"id\":\"0.24649326109469127-2\"}"
+      ],
+      "result": "getElementText:BASSA DE INDIA ",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.24649326109469127-3",
+        "{\"id\":\"0.24649326109469127-3\"}"
+      ],
+      "result": "getElementText:BRITISH INDIAN OCEAN TERRITORY ",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.24649326109469127-4",
+        "{\"id\":\"0.24649326109469127-4\"}"
+      ],
+      "result": "getElementText:INDIA ",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.24649326109469127-4",
+        "{\"id\":\"0.24649326109469127-4\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.24649326109469127-4",
+        "{\"id\":\"0.24649326109469127-4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getAlertText",
+      "args": [
+        "{}"
+      ],
+      "result": "You have chosen a mailing location outside of the United States and its territories. An additional charge of $6.5 will be added as mailing charge.",
+      "subLogs": [],
+      "duration": 4
+    },
+    {
+      "commandName": "getAlertText",
+      "args": [
+        "{}"
+      ],
+      "result": "You have chosen a mailing location outside of the United States and its territories. An additional charge of $6.5 will be added as mailing charge.",
+      "subLogs": [],
+      "duration": 4
+    },
+    {
+      "commandName": "acceptAlert",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 4
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Test  success",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "My sreenshot......!",
+      "type": "Info",
+      "screenshot": "../img/PopUp_b7tb6tbgwya411917.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "this is popup message",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

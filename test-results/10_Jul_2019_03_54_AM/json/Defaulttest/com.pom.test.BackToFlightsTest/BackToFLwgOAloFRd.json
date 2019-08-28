@@ -1,0 +1,180 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 4472
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='userName'], using=xpath}"
+      ],
+      "result": "id: 0.6448350584677085-1",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='userName']",
+        "{\"id\":\"0.6448350584677085-1\",\"value\":[\"guest\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 54
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='password'], using=xpath}"
+      ],
+      "result": "id: 0.6448350584677085-2",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='password']",
+        "{\"id\":\"0.6448350584677085-2\",\"value\":[\"guest\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 47
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='login'], using=xpath}"
+      ],
+      "result": "id: 0.6448350584677085-3",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='login']",
+        "{\"id\":\"0.6448350584677085-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 98042
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='findFlights'], using=xpath}"
+      ],
+      "result": "id: 0.8659392889807414-1",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='findFlights']",
+        "{\"id\":\"0.8659392889807414-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 932
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='reserveFlights'], using=xpath}"
+      ],
+      "result": "id: 0.5009120767650272-1",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='reserveFlights']",
+        "{\"id\":\"0.5009120767650272-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1192
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='buyFlights'], using=xpath}"
+      ],
+      "result": "id: 0.8098896916623504-1",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='buyFlights']",
+        "{\"id\":\"0.8098896916623504-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1177
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//img[@src='/images/forms/backtoflights.gif'], using=xpath}"
+      ],
+      "result": "id: 0.9334336242377008-1",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //img[@src='/images/forms/backtoflights.gif']",
+        "{\"id\":\"0.9334336242377008-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 919
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Test  success",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "My sreenshot......!",
+      "type": "Info",
+      "screenshot": "../img/BackToF_tumljnb44aos17841.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "this is flight booking page",
+      "type": "Info",
+      "screenshot": "../img/BackToF_ncnqde6wupxs17842.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "this is navigation to flights page",
+      "type": "Info",
+      "screenshot": "../img/BackToF_1u7aauvgknray17843.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

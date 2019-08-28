@@ -1,0 +1,257 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 2334
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='userName'], using=xpath}"
+      ],
+      "result": "id: 0.29196394779893287-1",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='userName']",
+        "{\"id\":\"0.29196394779893287-1\",\"value\":[\"guest\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 57
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='password'], using=xpath}"
+      ],
+      "result": "id: 0.29196394779893287-2",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='password']",
+        "{\"id\":\"0.29196394779893287-2\",\"value\":[\"guest\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 42
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='login'], using=xpath}"
+      ],
+      "result": "id: 0.29196394779893287-3",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='login']",
+        "{\"id\":\"0.29196394779893287-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 89542
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='findFlights'], using=xpath}"
+      ],
+      "result": "id: 0.014084274201121127-1",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='findFlights']",
+        "{\"id\":\"0.014084274201121127-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1409
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='reserveFlights'], using=xpath}"
+      ],
+      "result": "id: 0.2350721455101874-1",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='reserveFlights']",
+        "{\"id\":\"0.2350721455101874-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1477
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='delCountry'], using=xpath}"
+      ],
+      "result": "id: 0.8956036451752396-1",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.xpath: //select[@name='delCountry']",
+        "{\"id\":\"0.8956036451752396-1\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='delCountry'], using=xpath}"
+      ],
+      "result": "id: 0.8956036451752396-1",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.xpath: //select[@name='delCountry']",
+        "{\"name\":\"multiple\",\"id\":\"0.8956036451752396-1\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='delCountry'], using=xpath}"
+      ],
+      "result": "id: 0.8956036451752396-1",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: //select[@name='delCountry']",
+        "{\"using\":\"xpath\",\"id\":\"0.8956036451752396-1\",\"value\":\".//option[normalize-space(.) = \\\"AUSTRALIA\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.8956036451752396-2]",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.8956036451752396-2",
+        "{\"id\":\"0.8956036451752396-2\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.8956036451752396-2",
+        "{\"id\":\"0.8956036451752396-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getAlertText",
+      "args": [
+        "{}"
+      ],
+      "result": "You have chosen a mailing location outside of the United States and its territories. An additional charge of $6.5 will be added as mailing charge.",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "getAlertText",
+      "args": [
+        "{}"
+      ],
+      "result": "You have chosen a mailing location outside of the United States and its territories. An additional charge of $6.5 will be added as mailing charge.",
+      "subLogs": [],
+      "duration": 4
+    },
+    {
+      "commandName": "acceptAlert",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='buyFlights'], using=xpath}"
+      ],
+      "result": "id: 0.8956036451752396-3",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='buyFlights']",
+        "{\"id\":\"0.8956036451752396-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1207
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Test  success",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "My sreenshot......!",
+      "type": "Info",
+      "screenshot": "../img/PopUp_1s9nu0e53bsqd11291.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "this is popup message",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 9.326 sec <<< FAILURE!
+testSigin(com.pom.test.SigninInvalidUserNameAndPasswordTest)  Time elapsed: 2.791 sec  <<< FAILURE!
+java.lang.IllegalMonitorStateException
+	at java.lang.Object.wait(Native Method)
+	at com.pom.pages.SigninInvalidUserNameAndPasswordPage.doSignin(SigninInvalidUserNameAndPasswordPage.java:36)
+	at com.pom.test.SigninInvalidUserNameAndPasswordTest.testSigin(SigninInvalidUserNameAndPasswordTest.java:22)
+testSigin(com.pom.test.SigninInvalidUserNameAndPasswordTest)  Time elapsed: 1.351 sec  <<< FAILURE!
+java.lang.IllegalMonitorStateException
+	at java.lang.Object.wait(Native Method)
+	at com.pom.pages.SigninInvalidUserNameAndPasswordPage.doSignin(SigninInvalidUserNameAndPasswordPage.java:36)
+	at com.pom.test.SigninInvalidUserNameAndPasswordTest.testSigin(SigninInvalidUserNameAndPasswordTest.java:22)
+testSigin(com.pom.test.SigninInvalidUserNameAndPasswordTest)  Time elapsed: 1.238 sec  <<< FAILURE!
+java.lang.IllegalMonitorStateException
+	at java.lang.Object.wait(Native Method)
+	at com.pom.pages.SigninInvalidUserNameAndPasswordPage.doSignin(SigninInvalidUserNameAndPasswordPage.java:36)
+	at com.pom.test.SigninInvalidUserNameAndPasswordTest.testSigin(SigninInvalidUserNameAndPasswordTest.java:22)

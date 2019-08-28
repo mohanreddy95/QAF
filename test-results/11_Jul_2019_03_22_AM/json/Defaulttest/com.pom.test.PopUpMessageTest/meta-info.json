@@ -1,0 +1,85 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is check the popup message",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "Signin.data",
+        "name": "popUp",
+        "resultFileName": "PopUp",
+        "sheetName": "",
+        "sign": "PopUpMessageTest.popUp(java.util.Map)[pri:0, instance:com.pom.test.PopUpMessageTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562823776965,
+      "duration": 24159,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is check the popup message",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "Signin.data",
+        "name": "popUp",
+        "resultFileName": "PopUpmPgajibcww",
+        "sheetName": "",
+        "sign": "PopUpMessageTest.popUp(java.util.Map)[pri:0, instance:com.pom.test.PopUpMessageTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562824634537,
+      "duration": 25311,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is check the popup message",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "Signin.data",
+        "name": "popUp",
+        "resultFileName": "PopUpLmfIFowffY",
+        "sheetName": "",
+        "sign": "PopUpMessageTest.popUp(java.util.Map)[pri:0, instance:com.pom.test.PopUpMessageTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562824706118,
+      "duration": 19545,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

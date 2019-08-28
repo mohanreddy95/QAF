@@ -1,0 +1,189 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "{width=1456, x=-8, y=-8, height=876}",
+      "subLogs": [],
+      "duration": 1140
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 2429
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='userName'], using=xpath}"
+      ],
+      "result": "id: 0.5468448369162762-1",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='userName']",
+        "{\"id\":\"0.5468448369162762-1\",\"value\":[\"guest\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 44
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='password'], using=xpath}"
+      ],
+      "result": "id: 0.5468448369162762-2",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='password']",
+        "{\"id\":\"0.5468448369162762-2\",\"value\":[\"guest\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 47
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='login'], using=xpath}"
+      ],
+      "result": "id: 0.5468448369162762-3",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='login']",
+        "{\"id\":\"0.5468448369162762-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 130035
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='findFlights'], using=xpath}"
+      ],
+      "result": "id: 0.23366613967644345-1",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='findFlights']",
+        "{\"id\":\"0.23366613967644345-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 997
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='reserveFlights'], using=xpath}"
+      ],
+      "result": "id: 0.2328500501866715-1",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='reserveFlights']",
+        "{\"id\":\"0.2328500501866715-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1046
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='creditnumber'], using=xpath}"
+      ],
+      "result": "id: 0.5936482729821864-1",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='creditnumber']",
+        "{\"id\":\"0.5936482729821864-1\",\"value\":[\"1234567891012131415\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 130
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='buyFlights'], using=xpath}"
+      ],
+      "result": "id: 0.5936482729821864-2",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='buyFlights']",
+        "{\"id\":\"0.5936482729821864-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1280
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Test  success",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "My sreenshot......!",
+      "type": "Info",
+      "screenshot": "../img/CardNField_g648qz0rld3962777.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "this is card field ",
+      "type": "Info",
+      "screenshot": "../img/CardNField_a2qi10clqxq862778.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "wow it Flight Confirmation page ",
+      "type": "Info",
+      "screenshot": "../img/CardNField_82xzomzf8v6d62779.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

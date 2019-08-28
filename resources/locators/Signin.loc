@@ -1,0 +1,3 @@
+signin.username.text=xpath=//input[@name='userName']
+signin.password.text=xpath=//input[@name='password']
+signin.singin.btn=xpath=//input[@name='login']

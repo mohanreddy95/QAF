@@ -1,0 +1,86 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "This is a FlightFinder Page",
+        "groups": [],
+        "name": "flightFinderPage",
+        "resultFileName": "FlightFinderPage",
+        "sign": "BookFlightTest.flightFinderPage()[pri:0, instance:com.pom.test.BookFlightTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563167500488,
+      "duration": 27504,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "This is a FlightFinder Page",
+        "groups": [],
+        "name": "flightFinderPage",
+        "resultFileName": "FlightFinderPagexyNYbLqplL",
+        "sign": "BookFlightTest.flightFinderPage()[pri:0, instance:com.pom.test.BookFlightTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563173216097,
+      "duration": 121450,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flightFinderPage",
+        "resultFileName": "FlightFinderPagejCaYWgTwnL",
+        "sign": "BookFlightTest.flightFinderPage()[pri:0, instance:com.pom.test.BookFlightTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563177728880,
+      "duration": 53279,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flightFinderPage",
+        "resultFileName": "FlightFinderPagecIeDZPwziF",
+        "sign": "BookFlightTest.flightFinderPage()[pri:0, instance:com.pom.test.BookFlightTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563179658755,
+      "duration": 18671,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flightFinderPage",
+        "resultFileName": "FlightFinderPageefOCjNKKfS",
+        "sign": "BookFlightTest.flightFinderPage()[pri:0, instance:com.pom.test.BookFlightTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563183493805,
+      "duration": 37669,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

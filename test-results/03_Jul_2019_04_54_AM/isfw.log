@@ -1,0 +1,1020 @@
+[main] 10:24:53,981 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 10:24:53,991 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 10:24:53,992 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 10:24:53,993 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 10:24:53,993 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 10:24:54,169 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=13, qaf-Version=2.1, qaf-Build-Time=20-Feb-2018 00:19:29}
+[main] 10:24:54,192 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: C:\Users\mohanreddy.p\Downloads\qaf-blank-project-maven-master\qaf-blank-project-maven-master\resources. Found property files to load: 6
+[main] 10:24:54,220 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 10:24:54,220 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 10:24:54,220 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 10:24:54,220 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 10:24:54,220 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 10:24:54,221 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 10:24:54,221 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 10:24:54,222 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 10:24:54,222 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 10:24:54,222 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 10:24:54,222 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 10:24:54,222 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 10:24:54,222 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 10:24:54,223 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 10:24:54,223 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 10:24:54,223 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 10:24:54,223 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 10:24:54,223 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 10:24:54,225 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.xml-dialect
+[main] 10:24:54,226 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 10:24:54,226 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 10:24:54,226 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 10:24:54,226 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 10:24:54,226 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 10:24:54,226 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 10:24:54,232 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: C:\Users\mohanreddy.p\Downloads\qaf-blank-project-maven-master\qaf-blank-project-maven-master\resources. Found property files to load: 2
+[main] 10:24:54,235 DEBUG [org.apache.commons.configuration.ConfigurationUtils] ConfigurationUtils.locate(): base is null, name is null
+[main] 10:24:54,281 DEBUG [org.apache.commons.configuration.ConfigurationUtils] ConfigurationUtils.locate(): base is null, name is null
+[main] 10:24:54,283 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 10:24:54,283 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 10:24:54,283 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 10:24:54,283 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 10:24:54,283 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 10:24:54,283 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 10:24:54,283 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 10:24:54,283 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 10:24:54,283 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 10:24:54,284 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 10:24:54,284 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 10:24:54,284 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 10:24:54,284 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 10:24:54,284 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 10:24:54,284 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 10:24:54,284 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 10:24:54,284 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 10:24:54,284 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 10:24:54,284 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.xml-dialect
+[main] 10:24:54,284 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 10:24:54,284 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 10:24:54,284 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 10:24:54,284 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 10:24:54,284 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 10:24:54,284 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 10:24:54,306 INFO  [com.qmetry.qaf.automation.core.QAFTestBase] Initializing Driver...browser_str:chromeDriver,base_url:http://www.newtours.demoaut.com/,sel_server:localhost,port:4444
+[main] 10:24:54,324 INFO  [com.qmetry.qaf.automation.ui.UiDriverFactory] Driver: chromeDriver
+[main] 10:24:54,447 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] property [webdriver.chrome.driver] value [./resources/drivers/chromedriver.exe] ignored! It is overriden with System provided value: [C:\Users\mohanreddy.p\Downloads\qaf-blank-project-maven-master\qaf-blank-project-maven-master\resources\drivers\chromedriver.exe]
+[main] 10:24:54,473 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] property [webdriver.chrome.driver] value [./resources/drivers/chromedriver.exe] ignored! It is overriden with System provided value: [C:\Users\mohanreddy.p\Downloads\qaf-blank-project-maven-master\qaf-blank-project-maven-master\resources\drivers\chromedriver.exe]
+[Forwarding newSession on session null to remote] 10:24:55,354 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding newSession on session null to remote] 10:24:55,361 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding newSession on session null to remote] 10:24:55,362 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding newSession on session null to remote] 10:24:55,380 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding newSession on session null to remote] 10:24:55,381 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:10316
+[Forwarding newSession on session null to remote] 10:24:55,382 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:10316
+[Forwarding newSession on session null to remote] 10:24:55,394 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:50734<->127.0.0.1:10316
+[Forwarding newSession on session null to remote] 10:24:55,394 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding newSession on session null to remote] 10:24:55,394 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session HTTP/1.1
+[Forwarding newSession on session null to remote] 10:24:55,394 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding newSession on session null to remote] 10:24:55,395 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding newSession on session null to remote] 10:24:55,396 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session HTTP/1.1
+[Forwarding newSession on session null to remote] 10:24:55,396 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding newSession on session null to remote] 10:24:55,396 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 153
+[Forwarding newSession on session null to remote] 10:24:55,396 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding newSession on session null to remote] 10:24:55,396 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding newSession on session null to remote] 10:24:55,396 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding newSession on session null to remote] 10:24:55,396 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding newSession on session null to remote] 10:24:55,396 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+[Forwarding newSession on session null to remote] 10:24:55,396 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding newSession on session null to remote] 10:24:55,396 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 153[\r][\n]"
+[Forwarding newSession on session null to remote] 10:24:55,396 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding newSession on session null to remote] 10:24:55,396 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding newSession on session null to remote] 10:24:55,396 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding newSession on session null to remote] 10:24:55,396 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding newSession on session null to remote] 10:24:55,396 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding newSession on session null to remote] 10:24:55,397 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"desiredCapabilities":{"browserName":"chrome","takesScreenshot":true,"javascriptEnabled":true,"version":"","platform":"ANY","cssSelectorsEnabled":true}}"
+[Forwarding newSession on session null to remote] 10:24:57,158 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding newSession on session null to remote] 10:24:57,158 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:1035[\r][\n]"
+[Forwarding newSession on session null to remote] 10:24:57,158 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding newSession on session null to remote] 10:24:57,159 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding newSession on session null to remote] 10:24:57,159 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003})","userDataDir":"C:\\Users\\MOHANR~1.P\\AppData\\Local\\Temp\\scoped_dir8044_23201"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:50735"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows NT","proxy":{},"rotatable":false,"setWindowRect":true,"strictFileInteractability":false,"takesHeapSnapshot":true,"takesScreenshot":true,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unexpectedAlertBehaviour":"ignore","version":"75.0.3770.100","webStorageEnabled":true}}"
+[Forwarding newSession on session null to remote] 10:24:57,165 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding newSession on session null to remote] 10:24:57,165 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:1035
+[Forwarding newSession on session null to remote] 10:24:57,165 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding newSession on session null to remote] 10:24:57,170 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding newSession on session null to remote] 10:24:57,188 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding newSession on session null to remote] 10:24:57,189 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:24:57,197 INFO  [com.qmetry.qaf.automation.core.QAFTestBase] driver init done
+[main] 10:24:57,491 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupSuit
+[main] 10:24:57,499 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupSuit - com.qmetry.qaf.automation.testng is test:false
+[main] 10:24:57,499 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 10:24:57,511 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupTest
+[main] 10:24:57,513 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupTest - com.qmetry.qaf.automation.testng is test:false
+[main] 10:24:57,513 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 10:24:57,515 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 10:24:57,520 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setup
+[main] 10:24:57,520 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setup - com.qmetry.qaf.automation.testng is test:false
+[main] 10:24:57,520 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 10:24:57,570 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 10:24:57,570 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.testng is test:false
+[main] 10:24:57,570 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 10:24:57,666 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 10:24:57,666 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: testSigin
+[main] 10:24:57,667 DEBUG [com.pom.pages.SigninInvalidUserNameAndPasswordPage] Launching page: com.pom.pages.SigninInvalidUserNameAndPasswordPage
+[main] 10:24:57,668 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing get parameters: {"url":"http://www.newtours.demoaut.com/"}
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,669 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,669 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,669 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,669 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,669 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,713 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,713 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,713 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/url HTTP/1.1
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,713 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,713 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,713 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/url HTTP/1.1
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,713 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,713 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 42
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,713 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,713 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,713 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,713 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,713 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/url HTTP/1.1[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,713 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,713 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 42[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,713 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,713 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,714 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,714 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,714 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:57,714 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"url":"http://www.newtours.demoaut.com/"}"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,795 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,795 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,795 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,795 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,795 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":null}"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,795 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,795 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:72
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,795 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,795 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,795 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,795 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:24:59,797 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: get[ param-1: {url=http://www.newtours.demoaut.com/}] Result: null
+[main] 10:24:59,805 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"xpath","value":"//input[@name='userName']"}
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,805 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,806 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,806 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,806 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,806 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 53
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 53[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,807 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,808 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,808 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"//input[@name='userName']","using":"xpath"}"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,822 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,822 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:103[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,822 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,822 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,822 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":{"ELEMENT":"0.37075305043979867-1"}}"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,822 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,822 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:103
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,822 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,822 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,823 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,823 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:24:59,823 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=//input[@name='userName'], using=xpath}] Result: id: 0.37075305043979867-1
+[main] 10:24:59,824 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing sendKeysToElement element: By.xpath: //input[@name='userName'] parameters: {"id":"0.37075305043979867-1","value":["guest"]}
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,851 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,851 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,851 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,851 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,851 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.37075305043979867-1/value HTTP/1.1
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.37075305043979867-1/value HTTP/1.1
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 48
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.37075305043979867-1/value HTTP/1.1[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 48[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,853 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":["guest"],"id":"0.37075305043979867-1"}"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,893 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,893 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,893 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,893 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,893 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":null}"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,893 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,893 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:72
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,893 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,893 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,893 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,893 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:24:59,894 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: sendKeysToElement[ param-1: By.xpath: //input[@name='userName'] param-2: {"id":"0.37075305043979867-1","value":["guest"]}] Result: sendKeysToElement:null
+[main] 10:24:59,894 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"xpath","value":"//input[@name='password']"}
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,894 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,895 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,895 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,895 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,895 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 53
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 53[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,896 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"//input[@name='password']","using":"xpath"}"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,908 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,908 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:103[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,908 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,908 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,908 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":{"ELEMENT":"0.37075305043979867-2"}}"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,908 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,908 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:103
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,908 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,908 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,908 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,908 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:24:59,909 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=//input[@name='password'], using=xpath}] Result: id: 0.37075305043979867-2
+[main] 10:24:59,909 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing sendKeysToElement element: By.xpath: //input[@name='password'] parameters: {"id":"0.37075305043979867-2","value":["guest123"]}
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,910 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,910 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,910 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,910 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,910 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.37075305043979867-2/value HTTP/1.1
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.37075305043979867-2/value HTTP/1.1
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 51
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.37075305043979867-2/value HTTP/1.1[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 51[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,912 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":["guest123"],"id":"0.37075305043979867-2"}"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,960 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,960 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,960 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,960 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,960 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":null}"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,960 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,960 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:72
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,960 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,960 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,960 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,960 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:24:59,961 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: sendKeysToElement[ param-1: By.xpath: //input[@name='password'] param-2: {"id":"0.37075305043979867-2","value":["guest123"]}] Result: sendKeysToElement:null
+[main] 10:24:59,961 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"xpath","value":"//input[@name='login']"}
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,961 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,961 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,962 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,962 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,962 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 50
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 50[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,964 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"//input[@name='login']","using":"xpath"}"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,975 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,975 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:103[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,975 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,975 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,975 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":{"ELEMENT":"0.37075305043979867-3"}}"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,975 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,975 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:103
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,975 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,975 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,975 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,975 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:24:59,976 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=//input[@name='login'], using=xpath}] Result: id: 0.37075305043979867-3
+[main] 10:24:59,976 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.xpath: //input[@name='login'] parameters: {"id":"0.37075305043979867-3"}
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,976 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,977 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,977 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,977 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,977 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,979 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,979 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,979 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.37075305043979867-3/click HTTP/1.1
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,979 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,979 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,979 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.37075305043979867-3/click HTTP/1.1
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,979 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,979 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 30
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,979 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,979 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,979 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,979 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,979 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.37075305043979867-3/click HTTP/1.1[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,979 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,979 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 30[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,979 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,980 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,980 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,980 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,980 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:24:59,980 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"id":"0.37075305043979867-3"}"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,494 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,494 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,494 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,495 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,495 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":null}"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,495 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,495 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:72
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,496 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,496 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,496 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,496 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:25:02,498 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.xpath: //input[@name='login'] param-2: {"id":"0.37075305043979867-3"}] Result: clickElement:null
+[main] 10:25:02,499 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: testSigin - com.pom.test is test:true
+[main] 10:25:02,499 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 10:25:02,532 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: pass groups: {dataFile=, description=XML Data, groups=[Ljava.lang.String;@4b2c5e02, hasHeaderRow=false, key=InavalidUserNameAndPassword.data, name=testSigin, resultFileName=TestSigin, sheetName=, sign=SigninInvalidUserNameAndPasswordTest.testSigin(java.util.Map)[pri:0, instance:com.pom.test.SigninInvalidUserNameAndPasswordTest@5b799640], sqlQuery=}
+[main] 10:25:02,548 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterMethod
+[main] 10:25:02,549 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 10:25:02,549 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 10:25:02,549 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 10:25:02,550 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.testng is test:false
+[main] 10:25:02,550 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 10:25:02,552 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 10:25:02,552 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: testSigin
+[main] 10:25:02,552 DEBUG [com.pom.pages.SigninInvalidUserNameAndPasswordPage] Launching page: com.pom.pages.SigninInvalidUserNameAndPasswordPage
+[main] 10:25:02,553 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing get parameters: {"url":"http://www.newtours.demoaut.com/"}
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,554 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,554 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,554 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,554 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,554 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/url HTTP/1.1
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/url HTTP/1.1
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 42
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/url HTTP/1.1[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 42[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:02,556 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"url":"http://www.newtours.demoaut.com/"}"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,765 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,766 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,766 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,766 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,766 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":null}"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,766 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,766 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:72
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,766 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,766 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,766 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,766 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:25:03,767 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: get[ param-1: {url=http://www.newtours.demoaut.com/}] Result: null
+[main] 10:25:03,768 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"xpath","value":"//input[@name='userName']"}
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,769 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,769 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,769 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,769 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,769 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,771 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,771 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,771 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,771 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,771 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,771 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,771 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,771 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 53
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,771 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,771 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,771 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,771 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,771 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,771 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,771 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 53[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,772 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,772 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,772 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,772 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,772 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,772 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"//input[@name='userName']","using":"xpath"}"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,788 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,788 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:102[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,788 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,788 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,788 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":{"ELEMENT":"0.6672767654016498-1"}}"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,788 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,788 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:102
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,789 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,789 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,789 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,789 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:25:03,791 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=//input[@name='userName'], using=xpath}] Result: id: 0.6672767654016498-1
+[main] 10:25:03,791 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing sendKeysToElement element: By.xpath: //input[@name='userName'] parameters: {"id":"0.6672767654016498-1","value":["guest123"]}
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,792 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,792 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,792 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,793 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,793 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,794 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,794 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,794 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.6672767654016498-1/value HTTP/1.1
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,794 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,794 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,794 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.6672767654016498-1/value HTTP/1.1
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,794 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,794 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 50
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,794 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,794 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,794 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,794 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,794 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.6672767654016498-1/value HTTP/1.1[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,794 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,794 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 50[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,794 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,795 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,795 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,795 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,795 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,795 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":["guest123"],"id":"0.6672767654016498-1"}"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,859 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,859 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,859 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,859 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,859 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":null}"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,859 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,859 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:72
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,859 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,859 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,860 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,860 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:25:03,860 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: sendKeysToElement[ param-1: By.xpath: //input[@name='userName'] param-2: {"id":"0.6672767654016498-1","value":["guest123"]}] Result: sendKeysToElement:null
+[main] 10:25:03,860 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"xpath","value":"//input[@name='password']"}
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,861 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,861 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,861 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,861 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,861 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 53
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 53[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,862 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"//input[@name='password']","using":"xpath"}"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,869 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,869 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:102[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,869 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,869 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,869 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":{"ELEMENT":"0.6672767654016498-2"}}"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,869 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,870 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:102
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,870 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,870 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,870 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,870 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:25:03,871 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=//input[@name='password'], using=xpath}] Result: id: 0.6672767654016498-2
+[main] 10:25:03,871 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing sendKeysToElement element: By.xpath: //input[@name='password'] parameters: {"id":"0.6672767654016498-2","value":["guest"]}
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,872 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,872 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,873 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,873 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,873 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.6672767654016498-2/value HTTP/1.1
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.6672767654016498-2/value HTTP/1.1
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 47
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.6672767654016498-2/value HTTP/1.1[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 47[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,875 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":["guest"],"id":"0.6672767654016498-2"}"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,907 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,907 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,907 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,907 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,907 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":null}"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,908 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,908 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:72
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,908 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,908 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,908 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,908 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:25:03,908 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: sendKeysToElement[ param-1: By.xpath: //input[@name='password'] param-2: {"id":"0.6672767654016498-2","value":["guest"]}] Result: sendKeysToElement:null
+[main] 10:25:03,909 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"xpath","value":"//input[@name='login']"}
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,909 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,909 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,909 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,909 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,909 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 50
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 50[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,911 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"//input[@name='login']","using":"xpath"}"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,918 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,918 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:102[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,918 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,918 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,918 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":{"ELEMENT":"0.6672767654016498-3"}}"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,918 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,918 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:102
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,918 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,919 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,919 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,919 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:25:03,919 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=//input[@name='login'], using=xpath}] Result: id: 0.6672767654016498-3
+[main] 10:25:03,919 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.xpath: //input[@name='login'] parameters: {"id":"0.6672767654016498-3"}
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,920 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,920 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,920 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,920 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,920 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.6672767654016498-3/click HTTP/1.1
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.6672767654016498-3/click HTTP/1.1
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 29
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.6672767654016498-3/click HTTP/1.1[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 29[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:03,922 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"id":"0.6672767654016498-3"}"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,958 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,958 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,959 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,959 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,959 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":null}"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,959 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,959 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:72
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,959 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,959 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,960 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,960 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:25:06,961 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.xpath: //input[@name='login'] param-2: {"id":"0.6672767654016498-3"}] Result: clickElement:null
+[main] 10:25:06,962 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: testSigin - com.pom.test is test:true
+[main] 10:25:06,962 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 10:25:06,983 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: pass groups: {dataFile=, description=XML Data, groups=[Ljava.lang.String;@4b2c5e02, hasHeaderRow=false, key=InavalidUserNameAndPassword.data, name=testSigin, resultFileName=TestSigincMoMXCILSz, sheetName=, sign=SigninInvalidUserNameAndPasswordTest.testSigin(java.util.Map)[pri:0, instance:com.pom.test.SigninInvalidUserNameAndPasswordTest@5b799640], sqlQuery=}
+[main] 10:25:06,989 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterMethod
+[main] 10:25:06,989 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 10:25:06,989 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 10:25:06,990 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 10:25:06,990 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.testng is test:false
+[main] 10:25:06,990 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 10:25:06,993 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 10:25:06,993 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: testSigin
+[main] 10:25:06,993 DEBUG [com.pom.pages.SigninInvalidUserNameAndPasswordPage] Launching page: com.pom.pages.SigninInvalidUserNameAndPasswordPage
+[main] 10:25:06,993 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing get parameters: {"url":"http://www.newtours.demoaut.com/"}
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,994 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,994 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,994 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,994 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,994 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,996 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,997 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,997 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/url HTTP/1.1
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,997 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,997 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,998 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/url HTTP/1.1
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,998 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,998 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 42
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,998 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,998 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,998 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,998 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,998 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/url HTTP/1.1[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,998 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,998 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 42[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,998 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,999 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,999 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,999 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,999 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:06,999 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"url":"http://www.newtours.demoaut.com/"}"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,899 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,899 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,899 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,899 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,899 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":null}"
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,899 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,899 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:72
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,900 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,900 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,900 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding get on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,901 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:25:07,902 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: get[ param-1: {url=http://www.newtours.demoaut.com/}] Result: null
+[main] 10:25:07,903 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"xpath","value":"//input[@name='userName']"}
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,905 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,905 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,905 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,905 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,905 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,907 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,907 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,907 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,907 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,907 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,907 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,907 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,907 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 53
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,907 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,908 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,908 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,908 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,908 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,908 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,908 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 53[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,908 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,908 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,908 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,908 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,908 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,908 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"//input[@name='userName']","using":"xpath"}"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,924 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,924 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:102[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,924 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,924 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,924 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":{"ELEMENT":"0.4542781524264934-1"}}"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,924 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,925 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:102
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,925 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,925 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,925 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,925 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:25:07,926 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=//input[@name='userName'], using=xpath}] Result: id: 0.4542781524264934-1
+[main] 10:25:07,926 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing sendKeysToElement element: By.xpath: //input[@name='userName'] parameters: {"id":"0.4542781524264934-1","value":["guest123"]}
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,928 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,928 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,928 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,928 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,928 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.4542781524264934-1/value HTTP/1.1
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.4542781524264934-1/value HTTP/1.1
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 50
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.4542781524264934-1/value HTTP/1.1[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 50[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,931 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":["guest123"],"id":"0.4542781524264934-1"}"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,998 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,998 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,998 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,998 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,998 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":null}"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,998 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,998 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:72
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,998 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,998 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,998 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,998 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:25:07,999 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: sendKeysToElement[ param-1: By.xpath: //input[@name='userName'] param-2: {"id":"0.4542781524264934-1","value":["guest123"]}] Result: sendKeysToElement:null
+[main] 10:25:07,999 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"xpath","value":"//input[@name='password']"}
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,999 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,999 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,999 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:07,999 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,000 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 53
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 53[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,002 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"//input[@name='password']","using":"xpath"}"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,009 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,009 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:102[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,009 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,009 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,009 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":{"ELEMENT":"0.4542781524264934-2"}}"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,010 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,010 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:102
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,010 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,010 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,010 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,010 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:25:08,012 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=//input[@name='password'], using=xpath}] Result: id: 0.4542781524264934-2
+[main] 10:25:08,012 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing sendKeysToElement element: By.xpath: //input[@name='password'] parameters: {"id":"0.4542781524264934-2","value":["guest123"]}
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,013 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,013 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,013 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,013 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,013 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.4542781524264934-2/value HTTP/1.1
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.4542781524264934-2/value HTTP/1.1
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 50
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.4542781524264934-2/value HTTP/1.1[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 50[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,015 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":["guest123"],"id":"0.4542781524264934-2"}"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,062 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,062 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,062 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,062 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,062 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":null}"
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,062 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,062 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:72
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,062 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,062 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,062 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding sendKeysToElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,062 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:25:08,063 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: sendKeysToElement[ param-1: By.xpath: //input[@name='password'] param-2: {"id":"0.4542781524264934-2","value":["guest123"]}] Result: sendKeysToElement:null
+[main] 10:25:08,063 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"xpath","value":"//input[@name='login']"}
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,064 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,064 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,064 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,064 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,064 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 50
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 50[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,066 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"//input[@name='login']","using":"xpath"}"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,073 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,073 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:102[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,073 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,073 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,073 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":{"ELEMENT":"0.4542781524264934-3"}}"
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,073 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,073 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:102
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,073 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,073 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,073 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding findElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,073 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:25:08,074 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=//input[@name='login'], using=xpath}] Result: id: 0.4542781524264934-3
+[main] 10:25:08,075 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.xpath: //input[@name='login'] parameters: {"id":"0.4542781524264934-3"}
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,075 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,075 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,075 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,075 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,075 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.4542781524264934-3/click HTTP/1.1
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.4542781524264934-3/click HTTP/1.1
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 29
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session/cfab8bab2a39767c1abc59a34267c3ee/element/0.4542781524264934-3/click HTTP/1.1[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 29[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:08,077 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"id":"0.4542781524264934-3"}"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,823 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,823 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,823 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,823 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,823 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":null}"
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,824 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,824 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:72
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,824 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,824 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,824 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding clickElement on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,824 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 10:25:09,825 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.xpath: //input[@name='login'] param-2: {"id":"0.4542781524264934-3"}] Result: clickElement:null
+[main] 10:25:09,825 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: testSigin - com.pom.test is test:true
+[main] 10:25:09,825 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 10:25:09,840 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: pass groups: {dataFile=, description=XML Data, groups=[Ljava.lang.String;@4b2c5e02, hasHeaderRow=false, key=InavalidUserNameAndPassword.data, name=testSigin, resultFileName=TestSiginZKCYYSmRoP, sheetName=, sign=SigninInvalidUserNameAndPasswordTest.testSigin(java.util.Map)[pri:0, instance:com.pom.test.SigninInvalidUserNameAndPasswordTest@5b799640], sqlQuery=}
+[main] 10:25:09,854 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterMethod
+[main] 10:25:09,855 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 10:25:09,855 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 10:25:09,855 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterClass
+[main] 10:25:09,855 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterClass - com.qmetry.qaf.automation.ui is test:false
+[main] 10:25:09,855 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 10:25:09,857 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterTest
+[main] 10:25:09,857 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing quit parameters: {}
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,858 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,859 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,859 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,859 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:10316][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,859 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,861 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,861 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,861 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request DELETE /session/cfab8bab2a39767c1abc59a34267c3ee HTTP/1.1
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,861 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,861 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,861 DEBUG [org.apache.http.headers] http-outgoing-0 >> DELETE /session/cfab8bab2a39767c1abc59a34267c3ee HTTP/1.1
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,861 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:10316
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,861 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,861 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,861 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,861 DEBUG [org.apache.http.wire] http-outgoing-0 >> "DELETE /session/cfab8bab2a39767c1abc59a34267c3ee HTTP/1.1[\r][\n]"
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,861 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:10316[\r][\n]"
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,861 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,861 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_201)[\r][\n]"
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,861 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,861 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,931 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,931 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:72[\r][\n]"
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,931 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,931 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,931 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"cfab8bab2a39767c1abc59a34267c3ee","status":0,"value":null}"
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,931 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,931 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:72
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,931 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,931 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,932 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:10316] can be kept alive indefinitely
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,932 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:10316][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,933 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Closing connections idle longer than 0 SECONDS
+[Forwarding quit on session cfab8bab2a39767c1abc59a34267c3ee to remote] 10:25:09,936 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: Close connection
+[main] 10:25:09,936 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: quit[ param-1: {}] Result: null
+[main] 10:25:09,937 INFO  [com.qmetry.qaf.automation.ui.UiDriverFactory] UI-driver tear down complete...
+[main] 10:25:09,937 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterTest - com.qmetry.qaf.automation.ui is test:false
+[main] 10:25:09,937 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 10:25:09,998 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onfinish testcntext: start
+[main] 10:25:10,018 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterSuit
+[main] 10:25:10,019 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterSuit - com.qmetry.qaf.automation.testng is test:false
+[main] 10:25:10,019 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 10:25:10,019 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: start
+[main] 10:25:10,022 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: done
+[Thread-0] 10:25:10,148 INFO  [com.qmetry.qaf.automation.ui.webdriver.ChromeDriverHelper] Stopping chrome driver service.
+[Thread-0] 10:25:11,046 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] property [webdriver.chrome.driver] value [./resources/drivers/chromedriver.exe] ignored! It is overriden with System provided value: [C:\Users\mohanreddy.p\Downloads\qaf-blank-project-maven-master\qaf-blank-project-maven-master\resources\drivers\chromedriver.exe]
+[Thread-0] 10:25:11,302 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] property [webdriver.chrome.driver] value [./resources/drivers/chromedriver.exe] ignored! It is overriden with System provided value: [C:\Users\mohanreddy.p\Downloads\qaf-blank-project-maven-master\qaf-blank-project-maven-master\resources\drivers\chromedriver.exe]

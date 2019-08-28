@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "homePageVerify",
+        "resultFileName": "HomePageVerify",
+        "sign": "VerifyHomePageTest.homePageVerify()[pri:0, instance:com.pom.test.VerifyHomePageTest@1d8d30f7]"
+      },
+      "dependsOn": [],
+      "startTime": 1563168485684,
+      "duration": 1407,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

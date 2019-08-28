@@ -1,0 +1,184 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "{width=1456, x=-8, y=-8, height=876}",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1688
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='userName'], using=xpath}"
+      ],
+      "result": "id: 0.604040537254195-1",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='userName']",
+        "{\"id\":\"0.604040537254195-1\",\"value\":[\"guest\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 70
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='password'], using=xpath}"
+      ],
+      "result": "id: 0.604040537254195-2",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='password']",
+        "{\"id\":\"0.604040537254195-2\",\"value\":[\"guest\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 47
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='login'], using=xpath}"
+      ],
+      "result": "id: 0.604040537254195-3",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='login']",
+        "{\"id\":\"0.604040537254195-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 142730
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='fromMonth'], using=xpath}"
+      ],
+      "result": "id: 0.1282980068059667-1",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //select[@name='fromMonth']",
+        "{\"id\":\"0.1282980068059667-1\",\"value\":[\"july\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 43
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='fromDay'], using=xpath}"
+      ],
+      "result": "id: 0.1282980068059667-2",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //select[@name='fromDay']",
+        "{\"id\":\"0.1282980068059667-2\",\"value\":[\"24\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='toMonth'], using=xpath}"
+      ],
+      "result": "id: 0.1282980068059667-3",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //select[@name='toMonth']",
+        "{\"id\":\"0.1282980068059667-3\",\"value\":[\"july\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='toDay'], using=xpath}"
+      ],
+      "result": "id: 0.1282980068059667-4",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //select[@name='toDay']",
+        "{\"id\":\"0.1282980068059667-4\",\"value\":[\"2\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='findFlights'], using=xpath}"
+      ],
+      "result": "id: 0.1282980068059667-5",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='findFlights']",
+        "{\"id\":\"0.1282980068059667-5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 977
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "this is a flight dates..",
+      "type": "Info",
+      "screenshot": "../img/QAfFlight_rs7pc1uxfhmt44308.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="QAF Demo" duration-ms="3" started-at="2019-07-29T11:22:50Z" finished-at="2019-07-29T11:22:50Z">
+    <groups>
+    </groups>
+    <test name="BDD Test" duration-ms="3" started-at="2019-07-29T11:22:50Z" finished-at="2019-07-29T11:22:50Z">
+    </test> <!-- BDD Test -->
+  </suite> <!-- QAF Demo -->
+</testng-results>

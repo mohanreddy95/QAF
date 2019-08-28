@@ -1,0 +1,232 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 2027
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='REGISTER'], using=xpath}"
+      ],
+      "result": "id: 0.641730897033072-1",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[text()='REGISTER']",
+        "{\"id\":\"0.641730897033072-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 911
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='firstName'], using=xpath}"
+      ],
+      "result": "id: 0.06267838644094059-1",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='firstName']",
+        "{\"id\":\"0.06267838644094059-1\",\"value\":[\"mfiJoxoHGjKEZMs\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 97
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='lastName'], using=xpath}"
+      ],
+      "result": "id: 0.06267838644094059-2",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='lastName']",
+        "{\"id\":\"0.06267838644094059-2\",\"value\":[\"EolDquIbsyLHMAb\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 80
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='phone'], using=xpath}"
+      ],
+      "result": "id: 0.06267838644094059-3",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='phone']",
+        "{\"id\":\"0.06267838644094059-3\",\"value\":[\"4599275976\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 60
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='userName'], using=xpath}"
+      ],
+      "result": "id: 0.06267838644094059-4",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='userName']",
+        "{\"id\":\"0.06267838644094059-4\",\"value\":[\"ZTOPI4i7jn@mailinator.com\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 113
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='address1'], using=xpath}"
+      ],
+      "result": "id: 0.06267838644094059-5",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='address1']",
+        "{\"id\":\"0.06267838644094059-5\",\"value\":[\"ZTOPI4i7jn@mailinator.com\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 107
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='city'], using=xpath}"
+      ],
+      "result": "id: 0.06267838644094059-6",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='city']",
+        "{\"id\":\"0.06267838644094059-6\",\"value\":[\"vQwmY\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 50
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='state'], using=xpath}"
+      ],
+      "result": "id: 0.06267838644094059-7",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='state']",
+        "{\"id\":\"0.06267838644094059-7\",\"value\":[\"ZTOPI4i7jn@mailinator.com\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 114
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='postalCode'], using=xpath}"
+      ],
+      "result": "id: 0.06267838644094059-8",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='postalCode']",
+        "{\"id\":\"0.06267838644094059-8\",\"value\":[\"827923\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 44
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='country'], using=xpath}"
+      ],
+      "result": "id: 0.06267838644094059-9",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //select[@name='country']",
+        "{\"id\":\"0.06267838644094059-9\",\"value\":[\"INDIA\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='register'], using=xpath}"
+      ],
+      "result": "id: 0.06267838644094059-10",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='register']",
+        "{\"id\":\"0.06267838644094059-10\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 218549
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Wow.....",
+      "type": "Info",
+      "screenshot": "../img/RegisterNewUser_1o6q0sdaxhi0t22603.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

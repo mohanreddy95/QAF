@@ -1,0 +1,137 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1128
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='REGISTER'], using=xpath}"
+      ],
+      "result": "id: 0.6556865966914851-1",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[text()='REGISTER']",
+        "{\"id\":\"0.6556865966914851-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 2076
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='firstName'], using=xpath}"
+      ],
+      "result": "id: 0.23088427735885486-1",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='firstName']",
+        "{\"id\":\"0.23088427735885486-1\",\"value\":[\"Elena\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 61
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='lastName'], using=xpath}"
+      ],
+      "result": "id: 0.23088427735885486-2",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='lastName']",
+        "{\"id\":\"0.23088427735885486-2\",\"value\":[\"Gilbert\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 52
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='phone'], using=xpath}"
+      ],
+      "result": "id: 0.23088427735885486-3",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='phone']",
+        "{\"id\":\"0.23088427735885486-3\",\"value\":[\"1rgfgdg521\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 61
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='userName'], using=xpath}"
+      ],
+      "result": "id: 0.23088427735885486-4",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='userName']",
+        "{\"id\":\"0.23088427735885486-4\",\"value\":[\"abcdcbhb@gmail\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 81
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='register'], using=xpath}"
+      ],
+      "result": "id: 0.23088427735885486-5",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='register']",
+        "{\"id\":\"0.23088427735885486-5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 97302
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "User should be registered successfully",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "QAF Demo",
+  "status": "pass",
+  "tests": [
+    "FirstTest"
+  ],
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1562054548321,
+  "endTime": 1562054552366
+}

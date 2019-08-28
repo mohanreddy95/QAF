@@ -1,0 +1,58 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is to ckeck the page is navigation ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "Signin.data",
+        "name": "backToF",
+        "resultFileName": "BackToF",
+        "sheetName": "",
+        "sign": "BackToFlightsTest.backToF(java.util.Map)[pri:0, instance:com.pom.test.BackToFlightsTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562748094291,
+      "duration": 64265,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is to ckeck the page is navigation ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "Signin.data",
+        "name": "backToF",
+        "resultFileName": "BackToFLwgOAloFRd",
+        "sheetName": "",
+        "sign": "BackToFlightsTest.backToF(java.util.Map)[pri:0, instance:com.pom.test.BackToFlightsTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562753776268,
+      "duration": 111704,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

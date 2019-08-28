@@ -1,0 +1,55 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "This is a FlightFinder Page",
+        "groups": [],
+        "name": "flightFinderPage",
+        "resultFileName": "FlightFinderPage",
+        "sign": "FlightFinderTest1.flightFinderPage()[pri:0, instance:com.pom.test.FlightFinderTest1@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1562646182772,
+      "duration": 13022,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "This is a FlightFinder Page",
+        "groups": [],
+        "name": "flightFinderPage",
+        "resultFileName": "FlightFinderPageUinHajwohA",
+        "sign": "FlightFinderTest1.flightFinderPage()[pri:0, instance:com.pom.test.FlightFinderTest1@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1562651886290,
+      "duration": 74867,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "This is a FlightFinder Page",
+        "groups": [],
+        "name": "flightFinderPage",
+        "resultFileName": "FlightFinderPageeAWGAWLUou",
+        "sign": "FlightFinderTest1.flightFinderPage()[pri:0, instance:com.pom.test.FlightFinderTest1@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1562652443079,
+      "duration": 91385,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

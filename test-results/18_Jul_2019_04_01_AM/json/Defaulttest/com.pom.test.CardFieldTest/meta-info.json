@@ -1,0 +1,116 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest",
+          "creditNumber": "1234567891012131415"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": " verify the cardfield",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "data.cardNumber.user",
+        "name": "cardField",
+        "resultFileName": "CardField",
+        "sheetName": "",
+        "sign": "CardFieldTest.cardField(java.util.Map)[pri:0, instance:com.pom.test.CardFieldTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1563422702796,
+      "duration": 21387,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest",
+          "creditNumber": "ABCDEFG@#$%12345"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": " verify the cardfield",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "data.cardNumber.user",
+        "name": "cardField",
+        "resultFileName": "CardFieldRlshCDyiey",
+        "sheetName": "",
+        "sign": "CardFieldTest.cardField(java.util.Map)[pri:0, instance:com.pom.test.CardFieldTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1563422724264,
+      "duration": 124032,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest",
+          "creditNumber": "12345678910"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": " verify the cardfield",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "data.cardNumber.user",
+        "name": "cardField",
+        "resultFileName": "CardFieldDyYtAssOmg",
+        "sheetName": "",
+        "sign": "CardFieldTest.cardField(java.util.Map)[pri:0, instance:com.pom.test.CardFieldTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1563422848338,
+      "duration": 204542,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 4,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest",
+          "creditNumber": "1234567891011123"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": " verify the cardfield",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "data.cardNumber.user",
+        "name": "cardField",
+        "resultFileName": "CardFieldwUJtwyBPID",
+        "sheetName": "",
+        "sign": "CardFieldTest.cardField(java.util.Map)[pri:0, instance:com.pom.test.CardFieldTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1563423052915,
+      "duration": 140214,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

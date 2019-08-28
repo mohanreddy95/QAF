@@ -1,0 +1,116 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registerNewUser",
+        "resultFileName": "RegisterNewUser",
+        "sign": "RegisterBeanTest.registerNewUser()[pri:0, instance:com.pom.test.RegisterBeanTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1562156548692,
+      "duration": 7151,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registerNewUser",
+        "resultFileName": "RegisterNewUsermKRwiGNdLU",
+        "sign": "RegisterBeanTest.registerNewUser()[pri:0, instance:com.pom.test.RegisterBeanTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1562156751095,
+      "duration": 7330,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registerNewUser",
+        "resultFileName": "RegisterNewUserkzZYYWcPMl",
+        "sign": "RegisterBeanTest.registerNewUser()[pri:0, instance:com.pom.test.RegisterBeanTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1562156958707,
+      "duration": 38322,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registerNewUser",
+        "resultFileName": "RegisterNewUserLRQzidLadP",
+        "sign": "RegisterBeanTest.registerNewUser()[pri:0, instance:com.pom.test.RegisterBeanTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1562157280131,
+      "duration": 38976,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registerNewUser",
+        "resultFileName": "RegisterNewUservkbzstlGfe",
+        "sign": "RegisterBeanTest.registerNewUser()[pri:0, instance:com.pom.test.RegisterBeanTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1562157463632,
+      "duration": 225617,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registerNewUser",
+        "resultFileName": "RegisterNewUsernMjhNUROGN",
+        "sign": "RegisterBeanTest.registerNewUser()[pri:0, instance:com.pom.test.RegisterBeanTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1562157998665,
+      "duration": 58187,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registerNewUser",
+        "resultFileName": "RegisterNewUserlKGCtezERS",
+        "sign": "RegisterBeanTest.registerNewUser()[pri:0, instance:com.pom.test.RegisterBeanTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1562162841432,
+      "duration": 55852,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

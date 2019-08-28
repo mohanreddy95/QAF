@@ -1,0 +1,160 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 2337
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Welcome: Mercury Tours",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//img[@alt='Featured Destination: Aruba'], using=xpath}"
+      ],
+      "result": "[id: 0.8097727159164136-1]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//img[@alt='Specials'], using=xpath}"
+      ],
+      "result": "[id: 0.8097727159164136-2]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//img[@alt='Tour Tips'], using=xpath}"
+      ],
+      "result": "[id: 0.8097727159164136-3]",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//img[@alt='Find a Flight'], using=xpath}"
+      ],
+      "result": "[id: 0.8097727159164136-4]",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//a[text()='Destinations'], using=xpath}"
+      ],
+      "result": "[id: 0.8097727159164136-5]",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//a[text()='Destinations'], using=xpath}"
+      ],
+      "result": "[id: 0.8097727159164136-5]",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//img[@alt='Find a Flight'], using=xpath}"
+      ],
+      "result": "[id: 0.8097727159164136-4]",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//img[@alt='Find a Flight'], using=xpath}"
+      ],
+      "result": "[id: 0.8097727159164136-4]",
+      "subLogs": [],
+      "duration": 10
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "featuredDesctination components is present in home page",
+      "type": "Pass",
+      "screenshot": "../img/HomePage_tlimi9tpwego42910.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "speciol components is present in home page",
+      "type": "Pass",
+      "screenshot": "../img/HomePage_ubn8hhjsorf542911.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "tourTips components is present in home page",
+      "type": "Pass",
+      "screenshot": "../img/HomePage_fhmlummi5ibz42912.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "findAFilght components is present in home page",
+      "type": "Pass",
+      "screenshot": "../img/HomePage_fzb3er4lcqc142913.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "destination link is present in home page",
+      "type": "Pass",
+      "screenshot": "../img/HomePage_uh36pzu1thlg42914.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "vacations link is present in home page",
+      "type": "Pass",
+      "screenshot": "../img/HomePage_fvegsfws44xi42915.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "registe components is present in home page",
+      "type": "Pass",
+      "screenshot": "../img/HomePage_r0nipb0dxkfh42916.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "links components is present in home page",
+      "type": "Pass",
+      "screenshot": "../img/HomePage_1msud3veqfoh442917.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

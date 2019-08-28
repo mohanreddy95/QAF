@@ -1,0 +1,6 @@
+SCENARIO:  New tour login
+META-DATA: {"DataFile":"resources/testData/Signin.xml","description":"login new tour"}
+Given user open new tour app
+When user login with valid '${Signin.data.username}' and valid '${Signin.data.password}'
+Then verify home page id diplayed
+END

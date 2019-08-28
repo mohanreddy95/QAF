@@ -1,0 +1,72 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "this is my flight booking .....",
+        "groups": [],
+        "name": "bookingPage",
+        "resultFileName": "BookingPage",
+        "sign": "FlightBookingTest.bookingPage()[pri:0, instance:com.pom.test.FlightBookingTest@740fb309]"
+      },
+      "dependsOn": [],
+      "startTime": 1562330010066,
+      "duration": 72218,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "this is my flight booking .....",
+        "groups": [],
+        "name": "bookingPage",
+        "resultFileName": "BookingPageQmAssvWdkh",
+        "sign": "FlightBookingTest.bookingPage()[pri:0, instance:com.pom.test.FlightBookingTest@740fb309]"
+      },
+      "dependsOn": [],
+      "startTime": 1562331317819,
+      "duration": 52628,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "this is my flight booking .....",
+        "groups": [],
+        "name": "bookingPage",
+        "resultFileName": "BookingPageKqWBXeTPWd",
+        "sign": "FlightBookingTest.bookingPage()[pri:0, instance:com.pom.test.FlightBookingTest@740fb309]"
+      },
+      "dependsOn": [],
+      "startTime": 1562333323713,
+      "duration": 50671,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "this is my flight booking .....",
+        "groups": [],
+        "name": "bookingPage",
+        "resultFileName": "BookingPageaSQlQHFxVn",
+        "sign": "FlightBookingTest.bookingPage()[pri:0, instance:com.pom.test.FlightBookingTest@740fb309]"
+      },
+      "dependsOn": [],
+      "startTime": 1562334884444,
+      "duration": 42364,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

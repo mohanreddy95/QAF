@@ -1,0 +1,60 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest",
+          "creditNumber": "1234567891012131415"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is a checking the cardfield",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "data.cardNumber.user",
+        "name": "cardNField",
+        "resultFileName": "CardNField",
+        "sheetName": "",
+        "sign": "CardFieldTest.cardNField(java.util.Map)[pri:0, instance:com.pom.test.CardFieldTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562827539553,
+      "duration": 87678,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest",
+          "creditNumber": "1234567891012131415"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is a checking the cardfield",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "data.cardNumber.user",
+        "name": "cardNField",
+        "resultFileName": "CardNFieldYwYtVcPBYn",
+        "sheetName": "",
+        "sign": "CardFieldTest.cardNField(java.util.Map)[pri:0, instance:com.pom.test.CardFieldTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562828053981,
+      "duration": 141451,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

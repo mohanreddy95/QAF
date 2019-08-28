@@ -1,0 +1,116 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flights",
+        "resultFileName": "Flights",
+        "sign": "FlightFinderTest.flights()[pri:0, instance:com.pom.test.FlightFinderTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563167588362,
+      "duration": 28159,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flights",
+        "resultFileName": "FlightsFVTeVJWPtJ",
+        "sign": "FlightFinderTest.flights()[pri:0, instance:com.pom.test.FlightFinderTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563174387460,
+      "duration": 200453,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flights",
+        "resultFileName": "FlightsPUfByLcrwf",
+        "sign": "FlightFinderTest.flights()[pri:0, instance:com.pom.test.FlightFinderTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563174905464,
+      "duration": 108471,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flights",
+        "resultFileName": "FlightsHYbpYVLUJH",
+        "sign": "FlightFinderTest.flights()[pri:0, instance:com.pom.test.FlightFinderTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563177397476,
+      "duration": 23576,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flights",
+        "resultFileName": "FlightstAOwcxDiFC",
+        "sign": "FlightFinderTest.flights()[pri:0, instance:com.pom.test.FlightFinderTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563177557557,
+      "duration": 49735,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flights",
+        "resultFileName": "FlightsFuQUYICjVE",
+        "sign": "FlightFinderTest.flights()[pri:0, instance:com.pom.test.FlightFinderTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563177960188,
+      "duration": 28656,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flights",
+        "resultFileName": "FlightsJjfswWSlJx",
+        "sign": "FlightFinderTest.flights()[pri:0, instance:com.pom.test.FlightFinderTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563178684720,
+      "duration": 110541,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

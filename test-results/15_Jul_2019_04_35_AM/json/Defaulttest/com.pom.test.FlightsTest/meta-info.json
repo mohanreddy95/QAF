@@ -1,0 +1,100 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "tripType": "roundtrip",
+          "passengers": "1",
+          "departing": "PORTLAND",
+          "fromMonth": "july",
+          "fromDay": "1",
+          "arriving": "New York",
+          "returningMonth": "july",
+          "returningDay": "5"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "data.Flights.user",
+        "name": "QAfFlight",
+        "resultFileName": "QAfFlight",
+        "sheetName": "",
+        "sign": "FlightsTest.QAfFlight(java.util.Map)[pri:0, instance:com.pom.test.FlightsTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1563173557640,
+      "duration": 73932,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "tripType": "roundtrip",
+          "passengers": "1",
+          "departing": "PORTLAND",
+          "fromMonth": "july",
+          "fromDay": "24",
+          "arriving": "New York",
+          "returningMonth": "july",
+          "returningDay": "2"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "data.Flights.user",
+        "name": "QAfFlight",
+        "resultFileName": "QAfFlighthhZqsYaDSk",
+        "sheetName": "",
+        "sign": "FlightsTest.QAfFlight(java.util.Map)[pri:0, instance:com.pom.test.FlightsTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1563173631613,
+      "duration": 601697,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "tripType": "roundtrip",
+          "passengers": "1",
+          "departing": "PORTLAND",
+          "fromMonth": "july",
+          "fromDay": "1",
+          "arriving": "New York",
+          "returningMonth": "july",
+          "returningDay": "5"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "data.Flights.user",
+        "name": "QAfFlight",
+        "resultFileName": "QAfFlightkPKtnjuJkh",
+        "sheetName": "",
+        "sign": "FlightsTest.QAfFlight(java.util.Map)[pri:0, instance:com.pom.test.FlightsTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1563183587075,
+      "duration": 58454,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "firstname": "",
+          "lasename": ""
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is my invalid data ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "data.bookFlight.user",
+        "name": "book",
+        "resultFileName": "Book",
+        "sheetName": "",
+        "sign": "BookFlightTest.book(java.util.Map)[pri:0, instance:com.pom.test.BookFlightTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562674106773,
+      "duration": 225482,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "firstname": "1234",
+          "lasename": "5678"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is my invalid data ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "data.bookFlight.user",
+        "name": "book",
+        "resultFileName": "BookjRsvWCQkgr",
+        "sheetName": "",
+        "sign": "BookFlightTest.book(java.util.Map)[pri:0, instance:com.pom.test.BookFlightTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562674332568,
+      "duration": 601703,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

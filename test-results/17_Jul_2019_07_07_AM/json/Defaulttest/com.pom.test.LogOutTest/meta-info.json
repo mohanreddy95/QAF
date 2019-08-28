@@ -1,0 +1,68 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "logOut",
+        "resultFileName": "LogOut",
+        "sign": "LogOutTest.logOut()[pri:0, instance:com.pom.test.LogOutTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563350968686,
+      "duration": 131058,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "logOut",
+        "resultFileName": "LogOutypeAvLSJYa",
+        "sign": "LogOutTest.logOut()[pri:0, instance:com.pom.test.LogOutTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563351273879,
+      "duration": 5993,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "logOut",
+        "resultFileName": "LogOutPOQSlpufRg",
+        "sign": "LogOutTest.logOut()[pri:0, instance:com.pom.test.LogOutTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563351701857,
+      "duration": 476608,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "logOut",
+        "resultFileName": "LogOutnuNqurjYUk",
+        "sign": "LogOutTest.logOut()[pri:0, instance:com.pom.test.LogOutTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563355707395,
+      "duration": 82921,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

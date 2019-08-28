@@ -1,0 +1,31 @@
+{
+  "total": 0,
+  "pass": 0,
+  "fail": 0,
+  "skip": 0,
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "13",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "20-Feb-2018 00:19:29"
+    },
+    "run-parameters": {
+      "baseurl": "http://www.newtours.demoaut.com/",
+      "resources": "resources"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_201",
+      "os.arch": "amd64",
+      "host": "ICPL13076",
+      "os.name": "Windows 10",
+      "user.name": "mohanreddy.p",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1564399337685,
+  "endTime": 1564399370736
+}

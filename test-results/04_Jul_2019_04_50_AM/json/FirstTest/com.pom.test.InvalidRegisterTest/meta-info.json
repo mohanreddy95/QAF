@@ -1,0 +1,266 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": "this is a register this invalid data ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "RegisterInvalid",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegister",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@3de8f619]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562231824497,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "fname": "Elena",
+          "lname": "Gilbert",
+          "phone": "1rgfgdg54435",
+          "email": "abcdcbhb"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": "this is a register this invalid data ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegisterRfdtihZMSI",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@3de8f619]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562232053785,
+      "duration": 34840,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "fname": "Elena",
+          "lname": "Gilbert",
+          "phone": "1rgfgdg54435",
+          "email": "abcdcbhb"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": "this is a register this invalid data ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegisteryzjLAaxCwl",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@3de8f619]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562232123079,
+      "duration": 47275,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "fname": "",
+          "lname": "",
+          "phone": "",
+          "email": ""
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": "this is a register this invalid data ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegisterhRsPwghQay",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@3de8f619]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562232170387,
+      "duration": 30933,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": "this is a register this invalid data ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegisterUrqDAofMxe",
+        "sheetName": "InvalidRegisterUser",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@3de8f619]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562232395723,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": "this is a register this invalid data ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegisterIWiOGnQeZu",
+        "sheetName": "InvalidRegisterUser",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@3de8f619]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562232599072,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": "this is a register this invalid data ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegistermcgVaznsfR",
+        "sheetName": "InvalidRegisterUser",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@3de8f619]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562232620056,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "fname": "Elena",
+          "lname": "Gilbert",
+          "phone": "1rgfgdg54435",
+          "email": "abcdcbhb"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": "this is a register this invalid data ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegisterqYRMfPalYY",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@3de8f619]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562232788542,
+      "duration": 47559,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "fname": "",
+          "lname": "",
+          "phone": "",
+          "email": ""
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": "this is a register this invalid data ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegistercHJdZHDMTB",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@3de8f619]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562232836147,
+      "duration": 11820,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "fname": "Elena",
+          "lname": "Gilbert",
+          "phone": "1rgfgdg54435",
+          "email": "abcdcbhb"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": "this is a register this invalid data ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegisterpCgRctrHfU",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@3de8f619]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562232878363,
+      "duration": 14045,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

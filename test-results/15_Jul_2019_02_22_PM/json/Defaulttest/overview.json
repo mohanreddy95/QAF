@@ -1,0 +1,11 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.pom.test.FlightsTest"
+  ],
+  "startTime": 1563200725711,
+  "endTime": 0
+}

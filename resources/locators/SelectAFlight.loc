@@ -1,0 +1,7 @@
+flight.selectflightdepart.rbtn=xpath=//input[@name='outFlight']
+flight.selectflightreturn.rbtn=xpath=//input[@name='inFlight']
+flight.reserveflights.btn=xpath=//input[@name='reserveFlights']
+
+selectflight.flighttable.fid=xpath=//table[@cellspacing='1']
+selectflight.flightname.txt=xpath=//td[@class='data_left']
+selectflight.radiolist.btn=xpath=//input[@type='radio']

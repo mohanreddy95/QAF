@@ -1,0 +1,22 @@
+16:51:42 scenario.file.loc[Ljava.lang.String;@53f65459
+16:51:42 loading BDD file: C:\Users\mohanreddy.p\eclipse-workspace\QAF-Newtours-project-maven\.\scenarios\Signin.bdd
+16:51:42 loading BDD file: C:\Users\mohanreddy.p\eclipse-workspace\QAF-Newtours-project-maven\.\scenarios\suite1.bdd
+16:51:42 total test found: 1
+16:51:43 
+
+Executing scenario: SampleTest - Sample Test Scenario
+16:51:43 pkg: com.qmetry.qaf.automation.step
+16:51:43 pkg: com.pom.components
+16:51:43 Found duplicate step to load [] with [lower] prority then []
+16:51:43 Invoking Teststep: Given get '/' with arguments: [/]
+16:51:51 Completed Teststep: Given get '/' with arguments: [/]
+16:51:51 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="search for {0}")
+public void searchFor(String str0){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+16:51:51 Competed scenario: SampleTest with status FAILURE

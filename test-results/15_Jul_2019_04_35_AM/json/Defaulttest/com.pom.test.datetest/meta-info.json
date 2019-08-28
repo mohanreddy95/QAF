@@ -1,0 +1,36 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "date",
+        "resultFileName": "Date",
+        "sign": "datetest.date()[pri:0, instance:com.pom.test.datetest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563193004236,
+      "duration": 8527,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "date",
+        "resultFileName": "DateSLJhiDuyYU",
+        "sign": "datetest.date()[pri:0, instance:com.pom.test.datetest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563193125968,
+      "duration": 54865,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 4186
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='REGISTER'], using=xpath}"
+      ],
+      "result": "id: 0.8595413276998585-1",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[text()='REGISTER']",
+        "{\"id\":\"0.8595413276998585-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 928
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='register'], using=xpath}"
+      ],
+      "result": "id: 0.30611023902547974-1",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='register']",
+        "{\"id\":\"0.30611023902547974-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 17469
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Wow.....",
+      "type": "Info",
+      "screenshot": "../img/RegisterNewUser_7mtfirxhr8hv29060.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

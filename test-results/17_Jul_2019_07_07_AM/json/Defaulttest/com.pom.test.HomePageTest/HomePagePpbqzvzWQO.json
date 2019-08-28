@@ -1,0 +1,151 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 2297
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//img[@alt='Featured Destination: Aruba'], using=xpath}"
+      ],
+      "result": "[id: 0.24883482768927911-1]",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//img[@alt='Specials'], using=xpath}"
+      ],
+      "result": "[id: 0.24883482768927911-2]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//img[@alt='Tour Tips'], using=xpath}"
+      ],
+      "result": "[id: 0.24883482768927911-3]",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//img[@alt='Find a Flight'], using=xpath}"
+      ],
+      "result": "[id: 0.24883482768927911-4]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//a[text()='Destinations'], using=xpath}"
+      ],
+      "result": "[id: 0.24883482768927911-5]",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//a[text()='Destinations'], using=xpath}"
+      ],
+      "result": "[id: 0.24883482768927911-5]",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//img[@alt='Find a Flight'], using=xpath}"
+      ],
+      "result": "[id: 0.24883482768927911-4]",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//img[@alt='Find a Flight'], using=xpath}"
+      ],
+      "result": "[id: 0.24883482768927911-4]",
+      "subLogs": [],
+      "duration": 12
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "featuredDesctination components is present",
+      "type": "Pass",
+      "screenshot": "../img/HomePage_1pd65oejugmo336092.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "speciol components is present",
+      "type": "Pass",
+      "screenshot": "../img/HomePage_1gzwd4p10vhch36093.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "tourTips components is present",
+      "type": "Pass",
+      "screenshot": "../img/HomePage_v43ul2nr3vz136094.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "findAFilght components is present",
+      "type": "Pass",
+      "screenshot": "../img/HomePage_1lz45oho3mkkl36095.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "destination link is present",
+      "type": "Pass",
+      "screenshot": "../img/HomePage_6wqci9qgq89636096.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "vacations link is present",
+      "type": "Pass",
+      "screenshot": "../img/HomePage_1nmgwwz6zvujy36097.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "registe components is present",
+      "type": "Pass",
+      "screenshot": "../img/HomePage_1pqzrgkvqa0ge36098.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "links components is present",
+      "type": "Pass",
+      "screenshot": "../img/HomePage_1bd8qzctr279836099.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

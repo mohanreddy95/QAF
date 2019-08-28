@@ -1,0 +1,36 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "tripType": "roundtrip",
+          "passengers": "1",
+          "departing": "PORTLAND",
+          "fromMonth": "july",
+          "fromDay": "1",
+          "arriving": "London",
+          "returningMonth": "july",
+          "returningDay": "5"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "data.Flights.user",
+        "name": "QAfFlight",
+        "resultFileName": "QAfFlight",
+        "sheetName": "",
+        "sign": "FlightsTest.QAfFlight(java.util.Map)[pri:0, instance:com.pom.test.FlightsTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1563200706108,
+      "duration": 19539,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

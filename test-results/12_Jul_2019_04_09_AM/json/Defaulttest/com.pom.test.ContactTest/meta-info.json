@@ -1,0 +1,36 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "clickContact",
+        "resultFileName": "ClickContact",
+        "sign": "ContactTest.clickContact()[pri:0, instance:com.pom.test.ContactTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1562906155396,
+      "duration": 8605,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "clickContact",
+        "resultFileName": "ClickContactUlOGpUWhDz",
+        "sign": "ContactTest.clickContact()[pri:0, instance:com.pom.test.ContactTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1562936890657,
+      "duration": 16707,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

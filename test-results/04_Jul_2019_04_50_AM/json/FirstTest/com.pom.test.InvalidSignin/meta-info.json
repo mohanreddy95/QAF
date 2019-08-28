@@ -1,0 +1,26 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "dataFile": "",
+        "description": "XML Data",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidSignin.data",
+        "name": "testSigin",
+        "resultFileName": "TestSigin",
+        "sheetName": "",
+        "sign": "InvalidSignin.testSigin(java.util.Map)[pri:0, instance:com.pom.test.InvalidSignin@5b799640]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562223753611,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "XML Data",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "Signin.data",
+        "name": "testSigin",
+        "resultFileName": "TestSigin",
+        "sheetName": "",
+        "sign": "SigninTest.testSigin(java.util.Map)[pri:0, instance:com.pom.test.SigninTest@2eae8e6e]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562069839012,
+      "duration": 2419,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

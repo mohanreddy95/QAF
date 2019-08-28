@@ -1,0 +1,97 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3164
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Welcome: Mercury Tours",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='CONTACT'], using=xpath}"
+      ],
+      "result": "id: 0.3459840726197201-1",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[text()='CONTACT']",
+        "{\"id\":\"0.3459840726197201-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 714
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=(//font)[5], using=xpath}"
+      ],
+      "result": "id: 0.5127582387964074-1",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: (//font)[5]",
+        "{\"id\":\"0.5127582387964074-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//img[@src='/images/forms/home.gif'], using=xpath}"
+      ],
+      "result": "id: 0.5127582387964074-2",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //img[@src='/images/forms/home.gif']",
+        "{\"id\":\"0.5127582387964074-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 894
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": " In contact page Under Construction message is displaying",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Click on BackToHome button system should navigate to Sign On page successfully",
+      "type": "Pass",
+      "screenshot": "../img/ClickContact_5v18t998ehfb52083.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

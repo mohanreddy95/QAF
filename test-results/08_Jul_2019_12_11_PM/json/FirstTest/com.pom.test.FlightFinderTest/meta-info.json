@@ -1,0 +1,21 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "this is my flight booking page .....",
+        "groups": [],
+        "name": "bookingPage",
+        "resultFileName": "BookingPage",
+        "sign": "FlightFinderTest.bookingPage()[pri:0, instance:com.pom.test.FlightFinderTest@33c7e1bb]"
+      },
+      "dependsOn": [],
+      "startTime": 1562587921306,
+      "duration": 78957,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

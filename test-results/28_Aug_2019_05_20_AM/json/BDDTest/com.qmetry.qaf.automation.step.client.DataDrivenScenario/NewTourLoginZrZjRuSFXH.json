@@ -1,0 +1,201 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "openApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "[/]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "get",
+              "args": [
+                "{url=http://www.newtours.demoaut.com/}"
+              ],
+              "result": "null",
+              "subLogs": [],
+              "duration": 1391
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "doLogin",
+      "args": [
+        "[${Signin.data.username}, ${Signin.data.password}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[guest, signin.username.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='userName'], using=xpath}"
+              ],
+              "result": "id: 0.7709456733211986-1",
+              "subLogs": [],
+              "duration": 13
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@name='userName']",
+                "{\"id\":\"0.7709456733211986-1\",\"value\":[\"guest\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 40
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[guest, signin.password.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='password'], using=xpath}"
+              ],
+              "result": "id: 0.7709456733211986-2",
+              "subLogs": [],
+              "duration": 10
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@name='password']",
+                "{\"id\":\"0.7709456733211986-2\",\"value\":[\"guest\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 35
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[signin.singin.btn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='login'], using=xpath}"
+              ],
+              "result": "id: 0.7709456733211986-3",
+              "subLogs": [],
+              "duration": 9
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //input[@name='login']",
+                "{\"id\":\"0.7709456733211986-3\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 222649
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifysuccess",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user open new tour app",
+      "type": "TestStepPass",
+      "duration": 1391,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "get '/'",
+          "type": "TestStepPass",
+          "duration": 1391,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user login with valid 'guest' and valid 'guest'",
+      "type": "TestStepPass",
+      "duration": 222760,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys 'guest' into 'signin.username.text'",
+          "type": "TestStepPass",
+          "duration": 53,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'guest' into 'signin.password.text'",
+          "type": "TestStepPass",
+          "duration": 48,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'signin.singin.btn'",
+          "type": "TestStepPass",
+          "duration": 222658,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then verify home page id diplayed",
+      "type": "TestStepPass",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "login successfully",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

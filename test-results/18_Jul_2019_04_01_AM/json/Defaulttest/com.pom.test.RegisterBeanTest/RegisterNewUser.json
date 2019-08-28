@@ -1,0 +1,910 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3038
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='REGISTER'], using=xpath}"
+      ],
+      "result": "id: 0.15124077840092132-1",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[text()='REGISTER']",
+        "{\"id\":\"0.15124077840092132-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 936
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='confirmPassword' or @id='confirmPassword' or @value='confirmPassword'], using=xpath}"
+      ],
+      "result": "[id: 0.32745483446731827-1]",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='confirmPassword' or @id='confirmPassword' or @value='confirmPassword'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-1",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //*[@name='confirmPassword' or @id='confirmPassword' or @value='confirmPassword']",
+        "{\"id\":\"0.32745483446731827-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='confirmPassword' or @id='confirmPassword' or @value='confirmPassword'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-1",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //*[@name='confirmPassword' or @id='confirmPassword' or @value='confirmPassword']",
+        "{\"id\":\"0.32745483446731827-1\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='confirmPassword' or @id='confirmPassword' or @value='confirmPassword'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-1",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //*[@name='confirmPassword' or @id='confirmPassword' or @value='confirmPassword']",
+        "{\"id\":\"0.32745483446731827-1\",\"value\":[\"Elena123\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 72
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//input[@name='lastName'], using=xpath}"
+      ],
+      "result": "[id: 0.32745483446731827-2]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='lastName'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-2",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //input[@name='lastName']",
+        "{\"id\":\"0.32745483446731827-2\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='lastName'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-2",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //input[@name='lastName']",
+        "{\"id\":\"0.32745483446731827-2\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='lastName'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-2",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='lastName']",
+        "{\"id\":\"0.32745483446731827-2\",\"value\":[\"Gilbert\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 55
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//input[@name='email'], using=xpath}"
+      ],
+      "result": "[id: 0.32745483446731827-3]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='email'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-3",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //input[@name='email']",
+        "{\"id\":\"0.32745483446731827-3\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='email'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-3",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //input[@name='email']",
+        "{\"id\":\"0.32745483446731827-3\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='email'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-3",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='email']",
+        "{\"id\":\"0.32745483446731827-3\",\"value\":[\"Elena123\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 54
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//input[@name='userName'], using=xpath}"
+      ],
+      "result": "[id: 0.32745483446731827-4]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='userName'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-4",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //input[@name='userName']",
+        "{\"id\":\"0.32745483446731827-4\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='userName'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-4",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //input[@name='userName']",
+        "{\"id\":\"0.32745483446731827-4\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='userName'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-4",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='userName']",
+        "{\"id\":\"0.32745483446731827-4\",\"value\":[\"abc@gmail.com\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 83
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//input[@name='state'], using=xpath}"
+      ],
+      "result": "[id: 0.32745483446731827-5]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='state'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-5",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //input[@name='state']",
+        "{\"id\":\"0.32745483446731827-5\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='state'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-5",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //input[@name='state']",
+        "{\"id\":\"0.32745483446731827-5\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='state'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-5",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='state']",
+        "{\"id\":\"0.32745483446731827-5\",\"value\":[\"New York\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 67
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//input[@name='phone'], using=xpath}"
+      ],
+      "result": "[id: 0.32745483446731827-6]",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='phone'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-6",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //input[@name='phone']",
+        "{\"id\":\"0.32745483446731827-6\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='phone'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-6",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //input[@name='phone']",
+        "{\"id\":\"0.32745483446731827-6\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='phone'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-6",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='phone']",
+        "{\"id\":\"0.32745483446731827-6\",\"value\":[\"1234567890\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 71
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//input[@name='city'], using=xpath}"
+      ],
+      "result": "[id: 0.32745483446731827-7]",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='city'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-7",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //input[@name='city']",
+        "{\"id\":\"0.32745483446731827-7\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='city'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-7",
+      "subLogs": [],
+      "duration": 4
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //input[@name='city']",
+        "{\"id\":\"0.32745483446731827-7\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='city'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-7",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='city']",
+        "{\"id\":\"0.32745483446731827-7\",\"value\":[\"New York\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 78
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//input[@name='postalCode'], using=xpath}"
+      ],
+      "result": "[id: 0.32745483446731827-8]",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='postalCode'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-8",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //input[@name='postalCode']",
+        "{\"id\":\"0.32745483446731827-8\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='postalCode'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-8",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //input[@name='postalCode']",
+        "{\"id\":\"0.32745483446731827-8\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='postalCode'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-8",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='postalCode']",
+        "{\"id\":\"0.32745483446731827-8\",\"value\":[\"12345\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 59
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//select[@name='country'], using=xpath}"
+      ],
+      "result": "[id: 0.32745483446731827-9]",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='country'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-9",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //select[@name='country']",
+        "{\"id\":\"0.32745483446731827-9\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//select[@name='country'], using=xpath}"
+      ],
+      "result": "[id: 0.32745483446731827-9]",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='country'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-9",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //select[@name='country']",
+        "{\"id\":\"0.32745483446731827-9\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='country'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-9",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //select[@name='country']",
+        "{\"using\":\"xpath\",\"id\":\"0.32745483446731827-9\",\"value\":\".//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='US' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='US' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='US']\"}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='US' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='US' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='US']\"}\n  (Session info: chrome=75.0.3770.142)\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 16 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL13076', ip: '10.11.24.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64194}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}), userDataDir=C:\\Users\\MOHANR~1.P\\AppData\\Local\\Temp\\scoped_dir5712_30266}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.142, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: c5be1d6fd6a3b5b188fd68c74e9fa2ca\n*** Element info: {Using=xpath, value=.//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='US' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='US' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='US']}",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "By.xpath: .//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='US' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='US' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='US']",
+        "{\"id\":\"-1\"}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='US' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='US' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='US']\"}\n  (Session info: chrome=75.0.3770.142)\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 16 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL13076', ip: '10.11.24.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64194}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}), userDataDir=C:\\Users\\MOHANR~1.P\\AppData\\Local\\Temp\\scoped_dir5712_30266}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.142, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: c5be1d6fd6a3b5b188fd68c74e9fa2ca\n*** Element info: {Using=xpath, value=.//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='US' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='US' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='US']}",
+      "subLogs": [],
+      "duration": 57997704
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='country'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-9",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //select[@name='country']",
+        "{\"id\":\"0.32745483446731827-9\",\"value\":[\"us\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 59
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//input[@name='address1'], using=xpath}"
+      ],
+      "result": "[id: 0.32745483446731827-10]",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='address1'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-10",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //input[@name='address1']",
+        "{\"id\":\"0.32745483446731827-10\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='address1'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-10",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //input[@name='address1']",
+        "{\"id\":\"0.32745483446731827-10\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='address1'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-10",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='address1']",
+        "{\"id\":\"0.32745483446731827-10\",\"value\":[\"flat-007, baker street-202, west side\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 171
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//input[@name='firstName'], using=xpath}"
+      ],
+      "result": "[id: 0.32745483446731827-11]",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='firstName'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-11",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //input[@name='firstName']",
+        "{\"id\":\"0.32745483446731827-11\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='firstName'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-11",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //input[@name='firstName']",
+        "{\"id\":\"0.32745483446731827-11\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='firstName'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-11",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='firstName']",
+        "{\"id\":\"0.32745483446731827-11\",\"value\":[\"Elena\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 55
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='password' or @id='password' or @value='password'], using=xpath}"
+      ],
+      "result": "[id: 0.32745483446731827-12]",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='password' or @id='password' or @value='password'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-12",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //*[@name='password' or @id='password' or @value='password']",
+        "{\"id\":\"0.32745483446731827-12\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='password' or @id='password' or @value='password'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-12",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //*[@name='password' or @id='password' or @value='password']",
+        "{\"id\":\"0.32745483446731827-12\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='password' or @id='password' or @value='password'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-12",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //*[@name='password' or @id='password' or @value='password']",
+        "{\"id\":\"0.32745483446731827-12\",\"value\":[\"Elena123\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 59
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='register'], using=xpath}"
+      ],
+      "result": "id: 0.32745483446731827-13",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='register']",
+        "{\"id\":\"0.32745483446731827-13\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 62340
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=( //font)[5], using=xpath}"
+      ],
+      "result": "id: 0.6146997006096844-1",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: ( //font)[5]",
+        "{\"id\":\"0.6146997006096844-1\"}"
+      ],
+      "result": "getElementText:Thank you for registering. You may now sign-in using the user name and password you've just entered.",
+      "subLogs": [],
+      "duration": 24
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "enter xml data to Register page it register successfully ",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

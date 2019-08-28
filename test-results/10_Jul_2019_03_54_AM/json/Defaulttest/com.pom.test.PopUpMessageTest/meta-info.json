@@ -1,0 +1,139 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is check the popup message",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "Signin.data",
+        "name": "popUp",
+        "resultFileName": "PopUp",
+        "sheetName": "",
+        "sign": "PopUpMessageTest.popUp(java.util.Map)[pri:0, instance:com.pom.test.PopUpMessageTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562755202175,
+      "duration": 41563,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is check the popup message",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "Signin.data",
+        "name": "popUp",
+        "resultFileName": "PopUpnqKObdCRdp",
+        "sheetName": "",
+        "sign": "PopUpMessageTest.popUp(java.util.Map)[pri:0, instance:com.pom.test.PopUpMessageTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562755266695,
+      "duration": 39126,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is check the popup message",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "Signin.data",
+        "name": "popUp",
+        "resultFileName": "PopUpTavunNigmM",
+        "sheetName": "",
+        "sign": "PopUpMessageTest.popUp(java.util.Map)[pri:0, instance:com.pom.test.PopUpMessageTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562755454727,
+      "duration": 29807,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is check the popup message",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "Signin.data",
+        "name": "popUp",
+        "resultFileName": "PopUpOHmpVxwLlO",
+        "sheetName": "",
+        "sign": "PopUpMessageTest.popUp(java.util.Map)[pri:0, instance:com.pom.test.PopUpMessageTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562755929052,
+      "duration": 36990,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is check the popup message",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "Signin.data",
+        "name": "popUp",
+        "resultFileName": "PopUpDMkKxTmeIj",
+        "sheetName": "",
+        "sign": "PopUpMessageTest.popUp(java.util.Map)[pri:0, instance:com.pom.test.PopUpMessageTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562758666697,
+      "duration": 16855,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

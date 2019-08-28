@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "bookingPage",
+        "resultFileName": "BookingPage",
+        "sign": "FlightFinderTest.bookingPage()[pri:0, instance:com.pom.test.FlightFinderTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1562916704452,
+      "duration": 227523,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

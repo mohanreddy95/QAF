@@ -1,0 +1,36 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registerNewUser",
+        "resultFileName": "RegisterNewUser",
+        "sign": "RegisterBeanTest.registerNewUser()[pri:0, instance:com.pom.test.RegisterBeanTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1562321206599,
+      "duration": 9424,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registerNewUser",
+        "resultFileName": "RegisterNewUsereTNDKDugBQ",
+        "sign": "RegisterBeanTest.registerNewUser()[pri:0, instance:com.pom.test.RegisterBeanTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1562321986942,
+      "duration": 12540,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

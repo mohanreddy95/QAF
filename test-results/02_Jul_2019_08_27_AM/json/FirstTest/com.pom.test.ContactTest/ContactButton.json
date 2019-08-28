@@ -1,0 +1,52 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 4028
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='CONTACT'], using=xpath}"
+      ],
+      "result": "id: 0.1972429756597618-1",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[text()='CONTACT']",
+        "{\"id\":\"0.1972429756597618-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 705
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//img[@src='/images/forms/home.gif'], using=xpath}"
+      ],
+      "result": "id: 0.1423444670871301-1",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //img[@src='/images/forms/home.gif']",
+        "{\"id\":\"0.1423444670871301-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 928
+    }
+  ],
+  "checkPoints": []
+}

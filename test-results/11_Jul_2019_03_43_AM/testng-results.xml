@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Test  success</div><div  class="info"><span class="info-label">I </span>My sreenshot......! <a href="../img/Book_t1lzka8032gi27945.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Enter invalid data <a href="../img/Book_1rozbkp8twthn27946.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>this is a invalid user name <a href="../img/Book_i0lc1ue5sazu27947.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Test  success</div><div  class="info"><span class="info-label">I </span>My sreenshot......! <a href="../img/Book_1cq177rrq8eq227948.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Enter invalid data <a href="../img/Book_1dvjs58t1zzb327949.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>this is a invalid user name <a href="../img/Book_u41dhaee4uze27950.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Test  success</div><div  class="info"><span class="info-label">I </span>My sreenshot......! <a href="../img/Book_pzpm3ka5k3cm27951.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Enter invalid data <a href="../img/Book_1ry2hfy414jsc27952.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>this is a invalid user name <a href="../img/Book_1c4a6yo6xaywu27953.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAF Demo" duration-ms="602987" started-at="2019-07-11T03:43:18Z" finished-at="2019-07-11T03:53:21Z">
+    <groups>
+    </groups>
+    <test name="First Test" duration-ms="602987" started-at="2019-07-11T03:43:18Z" finished-at="2019-07-11T03:53:21Z">
+      <class name="com.pom.test.BookAFlightTest">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef]" name="setupSuit" is-config="true" duration-ms="15" started-at="2019-07-11T09:13:18Z" finished-at="2019-07-11T09:13:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28c4711c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef]" name="setup" is-config="true" duration-ms="0" started-at="2019-07-11T09:13:18Z" finished-at="2019-07-11T09:13:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28c4711c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef]" name="setupTest" is-config="true" duration-ms="0" started-at="2019-07-11T09:13:18Z" finished-at="2019-07-11T09:13:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28c4711c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="book(java.util.Map)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef]" name="book" duration-ms="17649" started-at="2019-07-11T09:13:18Z" description="this is my invalid data " finished-at="2019-07-11T09:13:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=guest, password=guest, firstname=, lasename=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Test  success</div><div  class="info"><span class="info-label">I </span>My sreenshot......! <a href="../img/Book_t1lzka8032gi27945.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Enter invalid data <a href="../img/Book_1rozbkp8twthn27946.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>this is a invalid user name <a href="../img/Book_i0lc1ue5sazu27947.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- book -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef]" name="setupMethod" is-config="true" duration-ms="0" started-at="2019-07-11T09:13:18Z" finished-at="2019-07-11T09:13:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pom.test.BookAFlightTest.book(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@28c4711c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-07-11T09:13:36Z" finished-at="2019-07-11T09:13:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28c4711c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=book status=SUCCESS method=BookAFlightTest.book(java.util.Map)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef] output=<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Test  success</div><div  class="info"><span class="info-label">I </span>My sreenshot......! <a href="../img/Book_t1lzka8032gi27945.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Enter invalid data <a href="../img/Book_1rozbkp8twthn27946.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>this is a invalid user name <a href="../img/Book_i0lc1ue5sazu27947.png" target="_blank">[View Screenshot]</a> </div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="book(java.util.Map)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef]" name="book" duration-ms="459519" started-at="2019-07-11T09:13:36Z" description="this is my invalid data " finished-at="2019-07-11T09:21:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=guest, password=guest, firstname=1234, lasename=5678}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Test  success</div><div  class="info"><span class="info-label">I </span>My sreenshot......! <a href="../img/Book_1cq177rrq8eq227948.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Enter invalid data <a href="../img/Book_1dvjs58t1zzb327949.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>this is a invalid user name <a href="../img/Book_u41dhaee4uze27950.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- book -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef]" name="setupMethod" is-config="true" duration-ms="0" started-at="2019-07-11T09:13:36Z" finished-at="2019-07-11T09:13:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pom.test.BookAFlightTest.book(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@28c4711c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-11T09:21:16Z" finished-at="2019-07-11T09:21:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28c4711c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=book status=SUCCESS method=BookAFlightTest.book(java.util.Map)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef] output=<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Test  success</div><div  class="info"><span class="info-label">I </span>My sreenshot......! <a href="../img/Book_1cq177rrq8eq227948.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Enter invalid data <a href="../img/Book_1dvjs58t1zzb327949.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>this is a invalid user name <a href="../img/Book_u41dhaee4uze27950.png" target="_blank">[View Screenshot]</a> </div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef]" name="setupMethod" is-config="true" duration-ms="0" started-at="2019-07-11T09:21:16Z" finished-at="2019-07-11T09:21:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pom.test.BookAFlightTest.book(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@28c4711c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="book(java.util.Map)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef]" name="book" duration-ms="125728" started-at="2019-07-11T09:21:16Z" description="this is my invalid data " finished-at="2019-07-11T09:23:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=guest, password=guest, firstname=ABCD, lasename=EFGH}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Test  success</div><div  class="info"><span class="info-label">I </span>My sreenshot......! <a href="../img/Book_pzpm3ka5k3cm27951.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Enter invalid data <a href="../img/Book_1ry2hfy414jsc27952.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>this is a invalid user name <a href="../img/Book_1c4a6yo6xaywu27953.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- book -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-07-11T09:23:21Z" finished-at="2019-07-11T09:23:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28c4711c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=book status=SUCCESS method=BookAFlightTest.book(java.util.Map)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef] output=<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Test  success</div><div  class="info"><span class="info-label">I </span>My sreenshot......! <a href="../img/Book_pzpm3ka5k3cm27951.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Enter invalid data <a href="../img/Book_1ry2hfy414jsc27952.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>this is a invalid user name <a href="../img/Book_1c4a6yo6xaywu27953.png" target="_blank">[View Screenshot]</a> </div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-07-11T09:23:21Z" finished-at="2019-07-11T09:23:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28c4711c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef]" name="afterTest" is-config="true" duration-ms="39" started-at="2019-07-11T09:23:21Z" finished-at="2019-07-11T09:23:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28c4711c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef]" name="afterSuit" is-config="true" duration-ms="1" started-at="2019-07-11T09:23:21Z" finished-at="2019-07-11T09:23:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28c4711c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.pom.test.BookAFlightTest -->
+    </test> <!-- First Test -->
+  </suite> <!-- QAF Demo -->
+</testng-results>

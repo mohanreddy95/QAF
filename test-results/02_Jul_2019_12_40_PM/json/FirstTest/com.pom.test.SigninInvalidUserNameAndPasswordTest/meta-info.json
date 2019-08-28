@@ -1,0 +1,85 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest123"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "XML Data",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InavalidUserNameAndPassword.data",
+        "name": "testSigin",
+        "resultFileName": "TestSigin",
+        "sheetName": "",
+        "sign": "SigninInvalidUserNameAndPasswordTest.testSigin(java.util.Map)[pri:0, instance:com.pom.test.SigninInvalidUserNameAndPasswordTest@2eae8e6e]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562071247174,
+      "duration": 2456,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest123",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "XML Data",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InavalidUserNameAndPassword.data",
+        "name": "testSigin",
+        "resultFileName": "TestSiginSDjwBLOYOf",
+        "sheetName": "",
+        "sign": "SigninInvalidUserNameAndPasswordTest.testSigin(java.util.Map)[pri:0, instance:com.pom.test.SigninInvalidUserNameAndPasswordTest@2eae8e6e]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562071249979,
+      "duration": 1034,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest123",
+          "password": "guest123"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "XML Data",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InavalidUserNameAndPassword.data",
+        "name": "testSigin",
+        "resultFileName": "TestSiginBmhtxNHsfm",
+        "sheetName": "",
+        "sign": "SigninInvalidUserNameAndPasswordTest.testSigin(java.util.Map)[pri:0, instance:com.pom.test.SigninInvalidUserNameAndPasswordTest@2eae8e6e]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562071251341,
+      "duration": 970,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

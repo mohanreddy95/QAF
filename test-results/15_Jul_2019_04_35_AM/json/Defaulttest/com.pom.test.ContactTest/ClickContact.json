@@ -1,0 +1,80 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3852
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='CONTACT'], using=xpath}"
+      ],
+      "result": "id: 0.5615746449524108-1",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[text()='CONTACT']",
+        "{\"id\":\"0.5615746449524108-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1092
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//img[@src='/images/masts/mast_construction.gif'], using=xpath}"
+      ],
+      "result": "id: 0.940524409249071-1",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //img[@src='/images/masts/mast_construction.gif']",
+        "{\"id\":\"0.940524409249071-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//img[@src='/images/forms/home.gif'], using=xpath}"
+      ],
+      "result": "id: 0.940524409249071-2",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //img[@src='/images/forms/home.gif']",
+        "{\"id\":\"0.940524409249071-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1180
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": " In contact page Under Construction message is displaying",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

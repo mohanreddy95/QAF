@@ -1,0 +1,24 @@
+flight.flight.link=xpath=//a[text()='Flights']
+flight.roundtrip.rbtn=xpath=//input[@name='tripType']
+flight.passengers.text=xpath=//select[@name='passCount']
+flight.departing.text=xpath=//select[@name='fromPort']
+flight.frommonth.text=xpath=//select[@name='fromMonth']
+flight.formday.text=xpath=//select[@name='fromDay']
+flight.arriving.text=xpath=//select[@name='toPort']
+flight.returningmonth.text=xpath=//select[@name='toMonth']
+flight.returningday.text=xpath=//select[@name='toDay']
+#flight.continue.btn=xpath=//input[@name='findFlights']
+flight.findflight.btn=//input[@name='findFlights']
+
+flight.selectflightdepart.rbtn=xpath=//input[@name='outFlight']
+flight.selectflightreturn.rbtn=xpath=//input[@name='inFlight']
+flight.reserveflights.btn=xpath=//input[@name='reserveFlights']
+
+selectflight.flighttable.fid=xpath=//table[@cellspacing='1']
+selectflight.flightname.txt=xpath=//td[@class='data_left']
+selectflight.radiolist.btn=xpath=//input[@type='radio']
+
+#this is a login xpath
+signin.username.text=xpath=//input[@name='userName']
+signin.password.text=xpath=//input[@name='password']
+signin.singin.btn=xpath=//input[@name='login']

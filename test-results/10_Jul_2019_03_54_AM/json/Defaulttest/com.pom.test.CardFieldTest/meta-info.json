@@ -1,0 +1,88 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest",
+          "creditNumber": "1234567891012131415"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is a checking the cardfield",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "data.cardNumber.user",
+        "name": "cardNField",
+        "resultFileName": "CardNField",
+        "sheetName": "",
+        "sign": "CardFieldTest.cardNField(java.util.Map)[pri:0, instance:com.pom.test.CardFieldTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562742436601,
+      "duration": 276303,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest",
+          "creditNumber": "1234567891012131415"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is a checking the cardfield",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "data.cardNumber.user",
+        "name": "cardNField",
+        "resultFileName": "CardNFieldQZJkrcPWYs",
+        "sheetName": "",
+        "sign": "CardFieldTest.cardNField(java.util.Map)[pri:0, instance:com.pom.test.CardFieldTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562753483373,
+      "duration": 20452,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest",
+          "creditNumber": "1234567891012131415"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is a checking the cardfield",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "data.cardNumber.user",
+        "name": "cardNField",
+        "resultFileName": "CardNFieldPLqXPexXmI",
+        "sheetName": "",
+        "sign": "CardFieldTest.cardNField(java.util.Map)[pri:0, instance:com.pom.test.CardFieldTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562758726764,
+      "duration": 74074,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

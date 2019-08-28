@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "ContactButton",
+        "resultFileName": "ContactButton",
+        "sign": "ContactTest.ContactButton()[pri:0, instance:com.pom.test.ContactTest@33c7e1bb]"
+      },
+      "dependsOn": [],
+      "startTime": 1562131660290,
+      "duration": 8286,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

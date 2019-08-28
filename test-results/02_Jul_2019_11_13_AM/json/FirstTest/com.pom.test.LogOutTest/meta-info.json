@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "doSignOff",
+        "resultFileName": "DoSignOff",
+        "sign": "LogOutTest.doSignOff()[pri:0, instance:com.pom.test.LogOutTest@33c7e1bb]"
+      },
+      "dependsOn": [],
+      "startTime": 1562066030643,
+      "duration": 22360,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

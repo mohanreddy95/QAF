@@ -1,0 +1,205 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "dataFile": "",
+        "description": "XML Data",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidSignin.data",
+        "name": "testSigin",
+        "resultFileName": "TestSigin",
+        "sheetName": "",
+        "sign": "InvalidSigninTest.testSigin(java.util.Map)[pri:0, instance:com.pom.test.InvalidSigninTest@5b799640]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562223868681,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "dataFile": "",
+        "description": "XML Data",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidSignin.data",
+        "name": "testSigin",
+        "resultFileName": "TestSiginItxpRcVSpn",
+        "sheetName": "",
+        "sign": "InvalidSigninTest.testSigin(java.util.Map)[pri:0, instance:com.pom.test.InvalidSigninTest@5b799640]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562223967587,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "dataFile": "",
+        "description": "XML Data",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidSignin.data",
+        "name": "testSigin",
+        "resultFileName": "TestSiginClHQHgdNEg",
+        "sheetName": "",
+        "sign": "InvalidSigninTest.testSigin(java.util.Map)[pri:0, instance:com.pom.test.InvalidSigninTest@5b799640]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562224051791,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest123"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "XML Data",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidSignin.data",
+        "name": "testSigin",
+        "resultFileName": "TestSigingICeFyvaae",
+        "sheetName": "",
+        "sign": "InvalidSigninTest.testSigin(java.util.Map)[pri:0, instance:com.pom.test.InvalidSigninTest@5b799640]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562224094301,
+      "duration": 4738,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest123",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "XML Data",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidSignin.data",
+        "name": "testSigin",
+        "resultFileName": "TestSiginMJEQHSafsX",
+        "sheetName": "",
+        "sign": "InvalidSigninTest.testSigin(java.util.Map)[pri:0, instance:com.pom.test.InvalidSigninTest@5b799640]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562224099077,
+      "duration": 3354,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest123",
+          "password": "guest123"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "XML Data",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidSignin.data",
+        "name": "testSigin",
+        "resultFileName": "TestSiginpZpjqHALnO",
+        "sheetName": "",
+        "sign": "InvalidSigninTest.testSigin(java.util.Map)[pri:0, instance:com.pom.test.InvalidSigninTest@5b799640]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562224102443,
+      "duration": 2703,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest123"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "XML Data",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidSignin.data",
+        "name": "testSigin",
+        "resultFileName": "TestSiginXosBZxQeoz",
+        "sheetName": "",
+        "sign": "InvalidSigninTest.testSigin(java.util.Map)[pri:0, instance:com.pom.test.InvalidSigninTest@5b799640]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562226386108,
+      "duration": 4770,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest123",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "XML Data",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidSignin.data",
+        "name": "testSigin",
+        "resultFileName": "TestSiginGsTTStBImZ",
+        "sheetName": "",
+        "sign": "InvalidSigninTest.testSigin(java.util.Map)[pri:0, instance:com.pom.test.InvalidSigninTest@5b799640]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562226390920,
+      "duration": 2231,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

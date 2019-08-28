@@ -1,0 +1,109 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is to ckeck the page is navigation ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "Signin.data",
+        "name": "backToFlight",
+        "resultFileName": "BackToFlight",
+        "sheetName": "",
+        "sign": "BackToFlightsTest.backToFlight(java.util.Map)[pri:0, instance:com.pom.test.BackToFlightsTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1563165679485,
+      "duration": 60499,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "Signin.data",
+        "name": "backToFlight",
+        "resultFileName": "BackToFlightWNDNPlueBK",
+        "sheetName": "",
+        "sign": "BackToFlightsTest.backToFlight(java.util.Map)[pri:0, instance:com.pom.test.BackToFlightsTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1563179141344,
+      "duration": 53561,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "Signin.data",
+        "name": "backToFlight",
+        "resultFileName": "BackToFlightWfgsoYHNcE",
+        "sheetName": "",
+        "sign": "BackToFlightsTest.backToFlight(java.util.Map)[pri:0, instance:com.pom.test.BackToFlightsTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1563179303009,
+      "duration": 63131,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "Signin.data",
+        "name": "backToFlight",
+        "resultFileName": "BackToFlightLdRjbjOBkN",
+        "sheetName": "",
+        "sign": "BackToFlightsTest.backToFlight(java.util.Map)[pri:0, instance:com.pom.test.BackToFlightsTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1563183305834,
+      "duration": 82853,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

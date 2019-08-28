@@ -1,0 +1,33 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "fname": "Elena",
+          "lname": "Gilbert",
+          "phone": "1rgfgdg54435",
+          "email": "abcdcbhb"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": "this is a register this invalid data ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegister",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@2cf3d63b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562233052773,
+      "duration": 9752,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

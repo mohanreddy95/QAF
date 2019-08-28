@@ -1,0 +1,88 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 2123
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='CONTACT'], using=xpath}"
+      ],
+      "result": "id: 0.6926598446845045-1",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[text()='CONTACT']",
+        "{\"id\":\"0.6926598446845045-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 731
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//img[@src='/images/masts/mast_construction.gif'], using=xpath}"
+      ],
+      "result": "id: 0.2781291293810524-1",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //img[@src='/images/masts/mast_construction.gif']",
+        "{\"id\":\"0.2781291293810524-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//img[@src='/images/forms/home.gif'], using=xpath}"
+      ],
+      "result": "id: 0.2781291293810524-2",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //img[@src='/images/forms/home.gif']",
+        "{\"id\":\"0.2781291293810524-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 902
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": " In contact page Under Construction message is displaying",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "My ScreenShot....",
+      "type": "Info",
+      "screenshot": "../img/ContactButton_5g8gh5mp3v6e20922.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

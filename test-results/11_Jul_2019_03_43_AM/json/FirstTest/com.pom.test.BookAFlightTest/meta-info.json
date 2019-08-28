@@ -1,0 +1,91 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest",
+          "firstname": "",
+          "lasename": ""
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is my invalid data ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "data.bookFlight.user",
+        "name": "book",
+        "resultFileName": "Book",
+        "sheetName": "",
+        "sign": "BookAFlightTest.book(java.util.Map)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562816598847,
+      "duration": 17649,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest",
+          "firstname": "1234",
+          "lasename": "5678"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is my invalid data ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "data.bookFlight.user",
+        "name": "book",
+        "resultFileName": "BookKjpZSWibMg",
+        "sheetName": "",
+        "sign": "BookAFlightTest.book(java.util.Map)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562816616509,
+      "duration": 459519,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest",
+          "firstname": "ABCD",
+          "lasename": "EFGH"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": "this is my invalid data ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "data.bookFlight.user",
+        "name": "book",
+        "resultFileName": "BookYrgEGLWzKq",
+        "sheetName": "",
+        "sign": "BookAFlightTest.book(java.util.Map)[pri:0, instance:com.pom.test.BookAFlightTest@467aecef]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562817076040,
+      "duration": 125728,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "fname": "Elena",
+          "lname": "Gilbert",
+          "phone": "1234567890",
+          "email": "abcdcbhb@gmail.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": " register the invalid data taken on xls file ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegister",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562933770697,
+      "duration": 49456,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "fname": "Elena",
+          "lname": "Gilbert",
+          "phone": "123434$#89",
+          "email": "abcdcbhb@gmail.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": " register the invalid data taken on xls file ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegisterLIuerkGwRk",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562933820196,
+      "duration": 109099,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "fname": "Elena",
+          "lname": "Gilbert",
+          "phone": "1rgfgdg544",
+          "email": "abcdcbhb11@gma.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": " register the invalid data taken on xls file ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegisterkhDSIReNtq",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562933929326,
+      "duration": 107951,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 4,
+      "type": "test",
+      "args": [
+        {
+          "fname": "Elena",
+          "lname": "Gilbert",
+          "phone": "aaa1234567",
+          "email": "abcdcbhb.gmail.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": " register the invalid data taken on xls file ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegistersthfPudvcQ",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562934037299,
+      "duration": 104669,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 5,
+      "type": "test",
+      "args": [
+        {
+          "fname": "Elena",
+          "lname": "Gilbert",
+          "phone": "1rgfgdg521",
+          "email": "abcdcbhb@gmail"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": " register the invalid data taken on xls file ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegisternpqAtKXSwH",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562934141990,
+      "duration": 100874,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 6,
+      "type": "test",
+      "args": [
+        {
+          "fname": "Elena",
+          "lname": "Gilbert",
+          "phone": "1rgfgdg544",
+          "email": "abcdcbhb122#gmail.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": " register the invalid data taken on xls file ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegisterkbRtEgYPTJ",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562934242889,
+      "duration": 102552,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 7,
+      "type": "test",
+      "args": [
+        {
+          "fname": "Elena",
+          "lname": "Gilbert",
+          "phone": "1123455444",
+          "email": "abcdcbhb%gmail.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": " register the invalid data taken on xls file ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegistermmARjQLqPJ",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562934345472,
+      "duration": 105112,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 8,
+      "type": "test",
+      "args": [
+        {
+          "fname": "Elena",
+          "lname": "Gilbert",
+          "phone": "2345678090",
+          "email": "abcdcbhb$12gmail.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": " register the invalid data taken on xls file ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegistergFnhSItYdo",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562934450600,
+      "duration": 92145,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 9,
+      "type": "test",
+      "args": [
+        {
+          "fname": "Elena",
+          "lname": "Gilbert",
+          "phone": "1rgfgd:\"12",
+          "email": "abcdcbhb.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": " register the invalid data taken on xls file ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegisterpPqqFalufg",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562934542765,
+      "duration": 90297,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 10,
+      "type": "test",
+      "args": [
+        {
+          "fname": "Elena",
+          "lname": "Gilbert",
+          "phone": "1rgfgdg544",
+          "email": ""
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": " register the invalid data taken on xls file ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegistertwUSzbNQIc",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562934633084,
+      "duration": 86258,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 11,
+      "type": "test",
+      "args": [
+        {
+          "fname": "Elena",
+          "lname": "Gilbert",
+          "phone": ":\":\":><?:{",
+          "email": "abcdcbhb@123.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/TestData/InvalidRegister.xls",
+        "description": " register the invalid data taken on xls file ",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "InvalidRegister",
+        "name": "invalidRegister",
+        "resultFileName": "InvalidRegisterxqRVveVOEB",
+        "sheetName": "InvalidRegister",
+        "sign": "InvalidRegisterTest.invalidRegister(java.util.Map)[pri:0, instance:com.pom.test.InvalidRegisterTest@24b1d79b]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1562934719353,
+      "duration": 83129,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

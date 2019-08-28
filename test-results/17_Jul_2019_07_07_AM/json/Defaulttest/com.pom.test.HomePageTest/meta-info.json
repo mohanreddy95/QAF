@@ -1,0 +1,68 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "homePage",
+        "resultFileName": "HomePage",
+        "sign": "HomePageTest.homePage()[pri:0, instance:com.pom.test.HomePageTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563349382169,
+      "duration": 10522,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "homePage",
+        "resultFileName": "HomePagePpbqzvzWQO",
+        "sign": "HomePageTest.homePage()[pri:0, instance:com.pom.test.HomePageTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563349712010,
+      "duration": 7547,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "homePage",
+        "resultFileName": "HomePageRwCbUaClaz",
+        "sign": "HomePageTest.homePage()[pri:0, instance:com.pom.test.HomePageTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563351302208,
+      "duration": 7447,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "homePage",
+        "resultFileName": "HomePagecCvxgjQitv",
+        "sign": "HomePageTest.homePage()[pri:0, instance:com.pom.test.HomePageTest@27d415d9]"
+      },
+      "dependsOn": [],
+      "startTime": 1563351688581,
+      "duration": 7664,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

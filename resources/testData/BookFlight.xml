@@ -1,0 +1,27 @@
+<root>
+	<data>
+		<bookFlight>
+			<user>
+				<username>guest</username>
+				<password>guest</password>
+				<firstname></firstname>
+				<lasename></lasename>
+
+			</user>
+			<user>
+				<username>guest</username>
+				<password>guest</password>
+				<firstname>!@#$$%</firstname>
+				<lasename>5678</lasename>
+
+			</user>
+			<user>
+				<username>guest</username>
+				<password>guest</password>
+				<firstname>ABCD</firstname>
+				<lasename>EFGH</lasename>
+
+			</user>
+		</bookFlight>
+	</data>
+</root>

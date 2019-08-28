@@ -1,0 +1,914 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 2079
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='userName'], using=xpath}"
+      ],
+      "result": "id: 0.5450207608487043-1",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='userName']",
+        "{\"id\":\"0.5450207608487043-1\",\"value\":[\"guest\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 43
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='password'], using=xpath}"
+      ],
+      "result": "id: 0.5450207608487043-2",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@name='password']",
+        "{\"id\":\"0.5450207608487043-2\",\"value\":[\"guest\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 44
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='login'], using=xpath}"
+      ],
+      "result": "id: 0.5450207608487043-3",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='login']",
+        "{\"id\":\"0.5450207608487043-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 82011
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='tripType' or @id='tripType' or @value='tripType'], using=xpath}"
+      ],
+      "result": "[id: 0.48383884151370204-1, id: 0.48383884151370204-2]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='tripType' or @id='tripType' or @value='tripType'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-1",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //*[@name='tripType' or @id='tripType' or @value='tripType']",
+        "{\"id\":\"0.48383884151370204-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//input[@name='tripType' or @id='tripType' or @value='tripType'][@value='roundtrip'], using=xpath}"
+      ],
+      "result": "[id: 0.48383884151370204-1]",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='tripType' or @id='tripType' or @value='tripType'][@value='roundtrip'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-1",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //input[@name='tripType' or @id='tripType' or @value='tripType'][@value='roundtrip']",
+        "{\"id\":\"0.48383884151370204-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='tripType' or @id='tripType' or @value='tripType'][@value='roundtrip'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-1",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "By.xpath: //input[@name='tripType' or @id='tripType' or @value='tripType'][@value='roundtrip']",
+        "{\"id\":\"0.48383884151370204-1\"}"
+      ],
+      "result": "isElementSelected:true",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='passCount' or @id='passCount' or @value='passCount'], using=xpath}"
+      ],
+      "result": "[id: 0.48383884151370204-3]",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='passCount' or @id='passCount' or @value='passCount'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-3",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //*[@name='passCount' or @id='passCount' or @value='passCount']",
+        "{\"id\":\"0.48383884151370204-3\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='passCount' or @id='passCount' or @value='passCount'], using=xpath}"
+      ],
+      "result": "[id: 0.48383884151370204-3]",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='passCount' or @id='passCount' or @value='passCount'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-3",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //*[@name='passCount' or @id='passCount' or @value='passCount']",
+        "{\"id\":\"0.48383884151370204-3\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='passCount' or @id='passCount' or @value='passCount'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-3",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //*[@name='passCount' or @id='passCount' or @value='passCount']",
+        "{\"using\":\"xpath\",\"id\":\"0.48383884151370204-3\",\"value\":\".//option[@value='1' or @lineNo=1 or  @id='1' or contains(.,'1') ]\"}"
+      ],
+      "result": "findChildElement:id: 0.48383884151370204-4",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "By.xpath: .//option[@value='1' or @lineNo=1 or  @id='1' or contains(.,'1') ]",
+        "{\"id\":\"0.48383884151370204-4\"}"
+      ],
+      "result": "isElementSelected:true",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='fromPort' or @id='fromPort' or @value='fromPort'], using=xpath}"
+      ],
+      "result": "[id: 0.48383884151370204-5]",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='fromPort' or @id='fromPort' or @value='fromPort'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-5",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //*[@name='fromPort' or @id='fromPort' or @value='fromPort']",
+        "{\"id\":\"0.48383884151370204-5\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='fromPort' or @id='fromPort' or @value='fromPort'], using=xpath}"
+      ],
+      "result": "[id: 0.48383884151370204-5]",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='fromPort' or @id='fromPort' or @value='fromPort'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-5",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //*[@name='fromPort' or @id='fromPort' or @value='fromPort']",
+        "{\"id\":\"0.48383884151370204-5\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='fromPort' or @id='fromPort' or @value='fromPort'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-5",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //*[@name='fromPort' or @id='fromPort' or @value='fromPort']",
+        "{\"using\":\"xpath\",\"id\":\"0.48383884151370204-5\",\"value\":\".//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='PORTLAND' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='PORTLAND' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='PORTLAND']\"}"
+      ],
+      "result": "findChildElement:id: 0.48383884151370204-6",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "By.xpath: .//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='PORTLAND' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='PORTLAND' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='PORTLAND']",
+        "{\"id\":\"0.48383884151370204-6\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='fromPort' or @id='fromPort' or @value='fromPort'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-5",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //*[@name='fromPort' or @id='fromPort' or @value='fromPort']",
+        "{\"using\":\"xpath\",\"id\":\"0.48383884151370204-5\",\"value\":\".//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='PORTLAND' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='PORTLAND' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='PORTLAND']\"}"
+      ],
+      "result": "findChildElement:id: 0.48383884151370204-6",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='PORTLAND' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='PORTLAND' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='PORTLAND']",
+        "{\"id\":\"0.48383884151370204-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//select[@name='fromMonth'], using=xpath}"
+      ],
+      "result": "[id: 0.48383884151370204-7]",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='fromMonth'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-7",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //select[@name='fromMonth']",
+        "{\"id\":\"0.48383884151370204-7\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//select[@name='fromMonth'], using=xpath}"
+      ],
+      "result": "[id: 0.48383884151370204-7]",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='fromMonth'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-7",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //select[@name='fromMonth']",
+        "{\"id\":\"0.48383884151370204-7\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='fromMonth'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-7",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //select[@name='fromMonth']",
+        "{\"using\":\"xpath\",\"id\":\"0.48383884151370204-7\",\"value\":\".//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY']\"}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY']\"}\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 15 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL13076', ip: '10.11.24.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61200}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}), userDataDir=C:\\Users\\MOHANR~1.P\\AppData\\Local\\Temp\\scoped_dir3756_8372}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.100, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 95913d29941c812f74db9d11d5a7615a\n*** Element info: {Using=xpath, value=.//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY']}",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "By.xpath: .//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY']",
+        "{\"id\":\"-1\"}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY']\"}\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 15 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL13076', ip: '10.11.24.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61200}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}), userDataDir=C:\\Users\\MOHANR~1.P\\AppData\\Local\\Temp\\scoped_dir3756_8372}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.100, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 95913d29941c812f74db9d11d5a7615a\n*** Element info: {Using=xpath, value=.//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY']}",
+      "subLogs": [],
+      "duration": -786731689
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select[@name='fromMonth'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-7",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //select[@name='fromMonth']",
+        "{\"id\":\"0.48383884151370204-7\",\"value\":[\"july\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='fromDay' or @id='fromDay' or @value='fromDay'], using=xpath}"
+      ],
+      "result": "[id: 0.48383884151370204-8, id: 0.48383884151370204-9]",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='fromDay' or @id='fromDay' or @value='fromDay'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-8",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //*[@name='fromDay' or @id='fromDay' or @value='fromDay']",
+        "{\"id\":\"0.48383884151370204-8\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='fromDay' or @id='fromDay' or @value='fromDay'], using=xpath}"
+      ],
+      "result": "[id: 0.48383884151370204-8, id: 0.48383884151370204-9]",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='fromDay' or @id='fromDay' or @value='fromDay'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-8",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //*[@name='fromDay' or @id='fromDay' or @value='fromDay']",
+        "{\"id\":\"0.48383884151370204-8\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='fromDay' or @id='fromDay' or @value='fromDay'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-8",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //*[@name='fromDay' or @id='fromDay' or @value='fromDay']",
+        "{\"using\":\"xpath\",\"id\":\"0.48383884151370204-8\",\"value\":\".//option[@value='6' or @lineNo=6 or  @id='6' or contains(.,'6') ]\"}"
+      ],
+      "result": "findChildElement:id: 0.48383884151370204-10",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "By.xpath: .//option[@value='6' or @lineNo=6 or  @id='6' or contains(.,'6') ]",
+        "{\"id\":\"0.48383884151370204-10\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='fromDay' or @id='fromDay' or @value='fromDay'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-8",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //*[@name='fromDay' or @id='fromDay' or @value='fromDay']",
+        "{\"using\":\"xpath\",\"id\":\"0.48383884151370204-8\",\"value\":\".//option[@value='6' or @lineNo=6 or  @id='6' or contains(.,'6') ]\"}"
+      ],
+      "result": "findChildElement:id: 0.48383884151370204-10",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//option[@value='6' or @lineNo=6 or  @id='6' or contains(.,'6') ]",
+        "{\"id\":\"0.48383884151370204-10\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='toPort' or @id='toPort' or @value='toPort'], using=xpath}"
+      ],
+      "result": "[id: 0.48383884151370204-11]",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='toPort' or @id='toPort' or @value='toPort'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-11",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //*[@name='toPort' or @id='toPort' or @value='toPort']",
+        "{\"id\":\"0.48383884151370204-11\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='toPort' or @id='toPort' or @value='toPort'], using=xpath}"
+      ],
+      "result": "[id: 0.48383884151370204-11]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='toPort' or @id='toPort' or @value='toPort'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-11",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //*[@name='toPort' or @id='toPort' or @value='toPort']",
+        "{\"id\":\"0.48383884151370204-11\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='toPort' or @id='toPort' or @value='toPort'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-11",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //*[@name='toPort' or @id='toPort' or @value='toPort']",
+        "{\"using\":\"xpath\",\"id\":\"0.48383884151370204-11\",\"value\":\".//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='NEW YORK' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='NEW YORK' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='NEW YORK']\"}"
+      ],
+      "result": "findChildElement:id: 0.48383884151370204-12",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "By.xpath: .//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='NEW YORK' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='NEW YORK' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='NEW YORK']",
+        "{\"id\":\"0.48383884151370204-12\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='toPort' or @id='toPort' or @value='toPort'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-11",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //*[@name='toPort' or @id='toPort' or @value='toPort']",
+        "{\"using\":\"xpath\",\"id\":\"0.48383884151370204-11\",\"value\":\".//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='NEW YORK' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='NEW YORK' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='NEW YORK']\"}"
+      ],
+      "result": "findChildElement:id: 0.48383884151370204-12",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='NEW YORK' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='NEW YORK' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='NEW YORK']",
+        "{\"id\":\"0.48383884151370204-12\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='toMonth' or @id='toMonth' or @value='toMonth'], using=xpath}"
+      ],
+      "result": "[id: 0.48383884151370204-13, id: 0.48383884151370204-14]",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='toMonth' or @id='toMonth' or @value='toMonth'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-13",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //*[@name='toMonth' or @id='toMonth' or @value='toMonth']",
+        "{\"id\":\"0.48383884151370204-13\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='toMonth' or @id='toMonth' or @value='toMonth'], using=xpath}"
+      ],
+      "result": "[id: 0.48383884151370204-13, id: 0.48383884151370204-14]",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='toMonth' or @id='toMonth' or @value='toMonth'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-13",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //*[@name='toMonth' or @id='toMonth' or @value='toMonth']",
+        "{\"id\":\"0.48383884151370204-13\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='toMonth' or @id='toMonth' or @value='toMonth'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-13",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //*[@name='toMonth' or @id='toMonth' or @value='toMonth']",
+        "{\"using\":\"xpath\",\"id\":\"0.48383884151370204-13\",\"value\":\".//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY']\"}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY']\"}\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 14 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL13076', ip: '10.11.24.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61200}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}), userDataDir=C:\\Users\\MOHANR~1.P\\AppData\\Local\\Temp\\scoped_dir3756_8372}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.100, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 95913d29941c812f74db9d11d5a7615a\n*** Element info: {Using=xpath, value=.//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY']}",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "By.xpath: .//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY']",
+        "{\"id\":\"-1\"}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY']\"}\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 14 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL13076', ip: '10.11.24.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61200}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}), userDataDir=C:\\Users\\MOHANR~1.P\\AppData\\Local\\Temp\\scoped_dir3756_8372}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.100, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 95913d29941c812f74db9d11d5a7615a\n*** Element info: {Using=xpath, value=.//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='JULY']}",
+      "subLogs": [],
+      "duration": -786731207
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='toMonth' or @id='toMonth' or @value='toMonth'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-13",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //*[@name='toMonth' or @id='toMonth' or @value='toMonth']",
+        "{\"id\":\"0.48383884151370204-13\",\"value\":[\"july\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='toDay' or @id='toDay' or @value='toDay'], using=xpath}"
+      ],
+      "result": "[id: 0.48383884151370204-15, id: 0.48383884151370204-16]",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='toDay' or @id='toDay' or @value='toDay'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-15",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //*[@name='toDay' or @id='toDay' or @value='toDay']",
+        "{\"id\":\"0.48383884151370204-15\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@name='toDay' or @id='toDay' or @value='toDay'], using=xpath}"
+      ],
+      "result": "[id: 0.48383884151370204-15, id: 0.48383884151370204-16]",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='toDay' or @id='toDay' or @value='toDay'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-15",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //*[@name='toDay' or @id='toDay' or @value='toDay']",
+        "{\"id\":\"0.48383884151370204-15\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='toDay' or @id='toDay' or @value='toDay'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-15",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //*[@name='toDay' or @id='toDay' or @value='toDay']",
+        "{\"using\":\"xpath\",\"id\":\"0.48383884151370204-15\",\"value\":\".//option[@value='11' or @lineNo=11 or  @id='11' or contains(.,'11') ]\"}"
+      ],
+      "result": "findChildElement:id: 0.48383884151370204-17",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "By.xpath: .//option[@value='11' or @lineNo=11 or  @id='11' or contains(.,'11') ]",
+        "{\"id\":\"0.48383884151370204-17\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='toDay' or @id='toDay' or @value='toDay'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-15",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //*[@name='toDay' or @id='toDay' or @value='toDay']",
+        "{\"using\":\"xpath\",\"id\":\"0.48383884151370204-15\",\"value\":\".//option[@value='11' or @lineNo=11 or  @id='11' or contains(.,'11') ]\"}"
+      ],
+      "result": "findChildElement:id: 0.48383884151370204-17",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//option[@value='11' or @lineNo=11 or  @id='11' or contains(.,'11') ]",
+        "{\"id\":\"0.48383884151370204-17\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='findFlights'], using=xpath}"
+      ],
+      "result": "id: 0.48383884151370204-18",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='findFlights']",
+        "{\"id\":\"0.48383884151370204-18\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 931
+    }
+  ],
+  "checkPoints": []
+}

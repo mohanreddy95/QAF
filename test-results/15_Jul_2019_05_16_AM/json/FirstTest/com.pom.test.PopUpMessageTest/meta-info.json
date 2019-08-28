@@ -1,0 +1,31 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest"
+        }
+      ],
+      "metaData": {
+        "dataFile": "",
+        "description": " verify popup message dispaly",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "Signin.data",
+        "name": "popUp",
+        "resultFileName": "PopUp",
+        "sheetName": "",
+        "sign": "PopUpMessageTest.popUp(java.util.Map)[pri:0, instance:com.pom.test.PopUpMessageTest@7a187f14]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1563167839026,
+      "duration": 38984,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

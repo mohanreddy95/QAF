@@ -1,0 +1,89 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "this is my flight booking page .....",
+        "groups": [],
+        "name": "bookingPage",
+        "resultFileName": "BookingPage",
+        "sign": "FlightBookingTest.bookingPage()[pri:0, instance:com.pom.test.FlightBookingTest@740fb309]"
+      },
+      "dependsOn": [],
+      "startTime": 1562561329397,
+      "duration": 43526,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "this is my flight booking page .....",
+        "groups": [],
+        "name": "bookingPage",
+        "resultFileName": "BookingPageKmEzuLrmLE",
+        "sign": "FlightBookingTest.bookingPage()[pri:0, instance:com.pom.test.FlightBookingTest@740fb309]"
+      },
+      "dependsOn": [],
+      "startTime": 1562561650684,
+      "duration": 41918,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "this is my flight booking page .....",
+        "groups": [],
+        "name": "bookingPage",
+        "resultFileName": "BookingPageJeZnSmesDv",
+        "sign": "FlightBookingTest.bookingPage()[pri:0, instance:com.pom.test.FlightBookingTest@740fb309]"
+      },
+      "dependsOn": [],
+      "startTime": 1562561938363,
+      "duration": 40270,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "this is my flight booking page .....",
+        "groups": [],
+        "name": "bookingPage",
+        "resultFileName": "BookingPageUmMYlbLihW",
+        "sign": "FlightBookingTest.bookingPage()[pri:0, instance:com.pom.test.FlightBookingTest@740fb309]"
+      },
+      "dependsOn": [],
+      "startTime": 1562567007342,
+      "duration": 129081,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "this is my flight booking page .....",
+        "groups": [],
+        "name": "bookingPage",
+        "resultFileName": "BookingPagevVZUTOjbmQ",
+        "sign": "FlightBookingTest.bookingPage()[pri:0, instance:com.pom.test.FlightBookingTest@740fb309]"
+      },
+      "dependsOn": [],
+      "startTime": 1562574291854,
+      "duration": 121706,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}
